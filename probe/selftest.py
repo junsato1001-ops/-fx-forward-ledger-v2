@@ -163,6 +163,12 @@ def serve(d, holder):
                 elif self.path == "/tsa-503":
                     holder["n503"] = holder.get("n503", 0) + 1
                     self.send_error(503)
+                elif self.path.startswith("/tsa-status-"):
+                    st = int(self.path.rsplit("-", 1)[1])
+                    holder.setdefault("nstatus", {})
+                    holder["nstatus"][st] = holder["nstatus"].get(st, 0) + 1
+                    # TimeStampResp ::= SEQUENCE { status PKIStatusInfo }  (no token)
+                    self._send(bytes([0x30, 0x05, 0x30, 0x03, 0x02, 0x01, st]), "application/timestamp-reply")
                 elif self.path in ("/ocsp-inter", "/ocsp-root"):
                     ca, idx = ("inter", "inter_index.txt") if self.path == "/ocsp-inter" else ("root", "root_index.txt")
                     signer, key = ("ocsp", "ocsp") if ca == "inter" else ("root", "root")
@@ -188,7 +194,8 @@ def main():
         now = dt.datetime.now(dt.timezone.utc)
         cfg = json.load(open(os.path.join(HERE, "tsa_probe_config.json")))
         cfg.update(stations=[{"id": "LOCAL", "url": base + "/tsa"}, {"id": "BADACC", "url": base + "/tsa-badacc"},
-                             {"id": "STOP503", "url": base + "/tsa-503"}], p1_min_spacing_seconds=1,
+                             {"id": "STOP503", "url": base + "/tsa-503"}] +
+                            [{"id": "STATUS%d" % k, "url": base + "/tsa-status-%d" % k} for k in (2, 3, 4, 5)], p1_min_spacing_seconds=1,
                    p3_refetch_wait_seconds=2, p3_slot_minute_utc=now.minute, p3_slot_count=2,
                    p3_first_slot_utc=now.replace(second=0, microsecond=0).strftime("%Y-%m-%dT%H:%M:%SZ"))
         cfgp = os.path.join(work, "cfg.json"); json.dump(cfg, open(cfgp, "w"))
@@ -221,6 +228,16 @@ def main():
         # 503 => station stopped after the first request in each run: P1 once + P3 once = 2 requests, no retry
         assert holder.get("n503") == 2, holder.get("n503")
         assert summ["stations"]["STOP503"]["checks_over_p1_tokens"]["n_tokens"] == 0
+        # any non-success PKIStatus (2 rejection, 3 waiting, 4 revocationWarning, 5 revocationNotification)
+        # => no retry, station stopped: P1 once + P3 once = 2 requests per station
+        assert holder.get("nstatus") == {2: 2, 3: 2, 4: 2, 5: 2}, holder.get("nstatus")
+        for k in (2, 3, 4, 5):
+            logs = []
+            for dp, _, names in os.walk(out):
+                if os.path.basename(dp) == "STATUS%d" % k and "station_log.json" in names:
+                    logs.append(json.load(open(os.path.join(dp, "station_log.json"))))
+            assert len(logs) == 2 and all(l["stopped"] == "stop_tsa_rejection_status_%d" % k and
+                                          l["tsa_requests"] == 1 for l in logs), logs
         print("SELFTEST PASS")
     finally:
         if not os.environ.get("SELFTEST_KEEP"):

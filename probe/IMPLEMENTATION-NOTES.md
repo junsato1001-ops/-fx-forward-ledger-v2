@@ -28,7 +28,7 @@
 | §5.1 | imprint = SHA-256("M1-MACRO-PIPELINE-V2 TSA PROBE " + Probe_Run_ID + " " + station + " " + seq) | `Station.request_token` |
 | §5.1 | timeout 30 s, one retry after 3 s, nothing more | config `http_timeout_seconds`, `retry_delay_seconds`, `max_retries`; `Station.request_token` |
 | §5.1 | runner time before send / after receive, UTC microseconds | `http()` `send_at`, `recv_at` |
-| §5.1 | HTTP 429/403/503 or TSA rejection → stop that station for the rest of the run, no retry | `stop_http_statuses`; `reason.startswith("stop_")` → `Station.stopped`; later requests logged as `skipped_after_stop` |
+| §5.1 | HTTP 429/403/503 or TSA rejection → stop that station for the rest of the run, no retry | `stop_http_statuses`; any PKIStatus other than 0/1 → `stop_tsa_rejection_status_<n>` (F-TP-I1); `reason.startswith("stop_")` → `Station.stopped`; later requests logged as `skipped_after_stop` |
 | §5.2 | P1 once, manual dispatch, 5 per station, ≥ 20 s apart | `cmd_p1` refuses if any P1 run exists; `p1_requests_per_station`, `p1_min_spacing_seconds` (monotonic clock, per station) |
 | §5.2 | save tsq/tsr DER, HTTP status/headers, `openssl ts -reply -text` | `<label>_<attempt>.tsq/.tsr/.http.json/.tsr.txt` |
 | §5.2 | per-token record: status (+statusString/failInfo), policy, accuracy, genTime raw, nonce, imprint, signature alg, ESSCertID(v2), certificates | `parse_tsr` (raw genTime string kept as is) |

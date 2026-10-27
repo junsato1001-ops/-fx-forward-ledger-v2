@@ -559,10 +559,9 @@ class Station:
             else:
                 try:
                     parsed = parse_tsr(body)
-                    if parsed["status"] == 2:
-                        reason = "stop_tsa_rejection"
-                    elif parsed["status"] not in (0, 1):
-                        reason = "failure_tsa_status_%d" % parsed["status"]
+                    if parsed["status"] not in (0, 1):
+                        # any PKIStatus other than granted(0)/grantedWithMods(1): stop, no retry (spec 5.1)
+                        reason = "stop_tsa_rejection_status_%d" % parsed["status"]
                 except Exception as e:
                     reason = "failure_parse: %s" % e
                     parsed = None
