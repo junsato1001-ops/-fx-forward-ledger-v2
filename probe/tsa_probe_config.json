@@ -1,0 +1,24 @@
+{
+  "schema_version": "TSA_PROBE_CONFIG_V1",
+  "classification": "PROBE / NON-FORMAL / PRE-SELECTION",
+  "spec_id": "M1-MACRO-PIPELINE-V2-TSA-PROBE-SPEC-V0.1",
+  "spec_sha256": "a3e4e44735a4fb0f45dd67b487236801b7d627e1b20e38f6cb6689c75ad60582",
+  "spec_git_blob": "5a7bf7bcb7fbb4bfc5ed19c456525c29a61d197f",
+  "spec_location": "junsato1001-ops/-fx-forward-ledger preregistration/M1-MACRO-PIPELINE-V2-TSA-PROBE-SPEC-V0.1.md (freeze commit b65a819232827fe99c93a929c0d649cb0aadd322)",
+  "stations": [
+    {"id": "C-DC", "url": "http://timestamp.digicert.com"},
+    {"id": "C-GS", "url": "http://timestamp.globalsign.com/tsa/r6advanced1"}
+  ],
+  "http_timeout_seconds": 30,
+  "retry_delay_seconds": 3,
+  "max_retries": 1,
+  "stop_http_statuses": [403, 429, 503],
+  "p1_requests_per_station": 5,
+  "p1_min_spacing_seconds": 20,
+  "p3_slot_minute_utc": 41,
+  "p3_slot_count": 48,
+  "p3_first_slot_utc": null,
+  "p3_refetch_wait_seconds": 900,
+  "p3_window_hours": 6,
+  "rtt_reference_seconds": 2.0
+}
