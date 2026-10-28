@@ -1,0 +1,42 @@
+{
+  "classification": "PROBE / NON-FORMAL / PRE-SELECTION (third candidate, stage 1 only)",
+  "config_sha256": "ab751d902a794474c8891b6a744490ec392233f8282b535aedee44f2fd6f9d2f",
+  "files": [
+    {
+      "path": "p4_results.json",
+      "sha256": "149ed2ebd685060e62658bc6f286489b137b4194a1b052fe251afe247070a39a"
+    }
+  ],
+  "finished_at": "2026-10-28T10:01:12.290259Z",
+  "github": {
+    "GITHUB_EVENT_NAME": "workflow_dispatch",
+    "GITHUB_REPOSITORY": "junsato1001-ops/-fx-forward-ledger-v2",
+    "GITHUB_RUN_ATTEMPT": "1",
+    "GITHUB_RUN_ID": "40668734598",
+    "GITHUB_SHA": "ff0cdef1de4c11564b3ea4cc91785d6043d6445b"
+  },
+  "launch_kind": "workflow_dispatch",
+  "mode": "p4",
+  "network": "expected to run under `unshare -n` (no network)",
+  "probe_run_id": "p4-40668734598-1",
+  "scheduled_time_utc": null,
+  "schema_version": "TSA_PROBE_RUN_V1",
+  "script_sha256": "f15735c2370539b54809cfb60737d43a56ec1970e3cc8dde1f8a34c458b0b6c5",
+  "spec_id": "M1-MACRO-PIPELINE-V2-TSA-THIRD-CANDIDATE-PROBE-SPEC-V0.1",
+  "spec_sha256": "0658b04b24ecb2c8ccb4e6e574fd07768ef79f51100c4135713c3dbe7747bd1a",
+  "started_at": "2026-10-28T10:01:12.242169Z",
+  "stations": [
+    {
+      "id": "C-CT",
+      "url": "http://time.certum.pl"
+    }
+  ],
+  "tools": {
+    "image_os": "ubuntu24",
+    "image_version": "20261023.334.3",
+    "openssl": "OpenSSL 3.0.13 30 Jan 2024 (Library: OpenSSL 3.0.13 30 Jan 2024)\nbuilt on: Wed Sep 16 18:47:02 2026 UTC\nplatform: debian-amd64\noptions:  bn(64,64)\ncompiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-yMWwKu/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-yMWwKu/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.16 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3\nOPENSSLDIR: \"/usr/lib/ssl\"\nENGINESDIR: \"/usr/lib/x86_64-linux-gnu/engines-3\"\nMODULESDIR: \"/usr/lib/x86_64-linux-gnu/ossl-modules\"\nSeeding source: os-specific\nCPUINFO: OPENSSL_ia32cap=0xfeda3203078bffff:0x400684219c07a9",
+    "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+    "runner_arch": "X64",
+    "runner_os": "Linux"
+  }
+}

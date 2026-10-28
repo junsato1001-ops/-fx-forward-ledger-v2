@@ -1,0 +1,69 @@
+[
+  {
+    "file": "p1-40666856282-1/C-CT/p1_tok1_1",
+    "run": "p1-40666856282-1",
+    "station": "C-CT",
+    "ts_verify_ok": true,
+    "ts_verify_output": "Verification: OK\nUsing configuration from /usr/lib/ssl/openssl.cnf\nWarning: certificate from '/tmp/tmpqh0qoq4t/untrusted.pem' with subject '/C=PL/O=Asseco Data Systems S.A./CN=Certum Timestamp 2026' is not a CA cert\n"
+  },
+  {
+    "file": "p1-40666856282-1/C-CT/p1_tok2_1",
+    "run": "p1-40666856282-1",
+    "station": "C-CT",
+    "ts_verify_ok": true,
+    "ts_verify_output": "Verification: OK\nUsing configuration from /usr/lib/ssl/openssl.cnf\nWarning: certificate from '/tmp/tmpqh0qoq4t/untrusted.pem' with subject '/C=PL/O=Asseco Data Systems S.A./CN=Certum Timestamp 2026' is not a CA cert\n"
+  },
+  {
+    "file": "p1-40666856282-1/C-CT/p1_tok3_1",
+    "run": "p1-40666856282-1",
+    "station": "C-CT",
+    "ts_verify_ok": true,
+    "ts_verify_output": "Verification: OK\nUsing configuration from /usr/lib/ssl/openssl.cnf\nWarning: certificate from '/tmp/tmpqh0qoq4t/untrusted.pem' with subject '/C=PL/O=Asseco Data Systems S.A./CN=Certum Timestamp 2026' is not a CA cert\n"
+  },
+  {
+    "file": "p1-40666856282-1/C-CT/p1_tok4_1",
+    "run": "p1-40666856282-1",
+    "station": "C-CT",
+    "ts_verify_ok": true,
+    "ts_verify_output": "Verification: OK\nUsing configuration from /usr/lib/ssl/openssl.cnf\nWarning: certificate from '/tmp/tmpqh0qoq4t/untrusted.pem' with subject '/C=PL/O=Asseco Data Systems S.A./CN=Certum Timestamp 2026' is not a CA cert\n"
+  },
+  {
+    "file": "p1-40666856282-1/C-CT/p1_tok5_1",
+    "run": "p1-40666856282-1",
+    "station": "C-CT",
+    "ts_verify_ok": true,
+    "ts_verify_output": "Verification: OK\nUsing configuration from /usr/lib/ssl/openssl.cnf\nWarning: certificate from '/tmp/tmpqh0qoq4t/untrusted.pem' with subject '/C=PL/O=Asseco Data Systems S.A./CN=Certum Timestamp 2026' is not a CA cert\n"
+  },
+  {
+    "file": "p1-40666856282-1/C-CT/rev/p1_intermediate_crl.der",
+    "rc": 0,
+    "run": "p1-40666856282-1",
+    "station": "C-CT",
+    "stderr": "verify OK\n",
+    "verify_ok": true
+  },
+  {
+    "file": "p1-40666856282-1/C-CT/rev/p1_intermediate_ocsp.der",
+    "rc": 0,
+    "run": "p1-40666856282-1",
+    "station": "C-CT",
+    "stderr": "Response verify OK\n",
+    "verify_ok": true
+  },
+  {
+    "file": "p1-40666856282-1/C-CT/rev/p1_signer_crl.der",
+    "rc": 0,
+    "run": "p1-40666856282-1",
+    "station": "C-CT",
+    "stderr": "verify OK\n",
+    "verify_ok": true
+  },
+  {
+    "file": "p1-40666856282-1/C-CT/rev/p1_signer_ocsp.der",
+    "rc": 0,
+    "run": "p1-40666856282-1",
+    "station": "C-CT",
+    "stderr": "Response verify OK\n40378C773C7F0000:error:1C8000DE:Provider routines:file_set_ctx_params:search only supported for directories:../providers/implementations/storemgmt/file_store.c:359:\n",
+    "verify_ok": true
+  }
+]
