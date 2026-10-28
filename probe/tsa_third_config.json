@@ -1,0 +1,23 @@
+{
+  "schema_version": "TSA_PROBE_CONFIG_V1",
+  "classification": "PROBE / NON-FORMAL / PRE-SELECTION (third candidate, stage 1 only)",
+  "spec_id": "M1-MACRO-PIPELINE-V2-TSA-THIRD-CANDIDATE-PROBE-SPEC-V0.1",
+  "spec_sha256": "0658b04b24ecb2c8ccb4e6e574fd07768ef79f51100c4135713c3dbe7747bd1a",
+  "spec_git_blob": "d652a45c46c2c051a37b481c5ac8b63b882100a4",
+  "spec_location": "junsato1001-ops/-fx-forward-ledger preregistration/M1-MACRO-PIPELINE-V2-TSA-THIRD-CANDIDATE-PROBE-SPEC-V0.1.md (freeze commit 0586f9aaab823b9dc59330c89cdc0b97a3ba231f)",
+  "stations": [
+    {"id": "C-CT", "url": "http://time.certum.pl"}
+  ],
+  "http_timeout_seconds": 30,
+  "retry_delay_seconds": 3,
+  "max_retries": 1,
+  "stop_http_statuses": [403, 429, 503],
+  "p1_requests_per_station": 5,
+  "p1_min_spacing_seconds": 20,
+  "p3_slot_minute_utc": 41,
+  "p3_slot_count": 0,
+  "p3_first_slot_utc": null,
+  "p3_refetch_wait_seconds": 900,
+  "p3_window_hours": 6,
+  "rtt_reference_seconds": 2.0
+}
