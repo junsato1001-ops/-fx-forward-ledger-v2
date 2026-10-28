@@ -1,0 +1,42 @@
+{
+  "attempt": 1,
+  "body_length": 2262,
+  "body_sha256": "cf68b67450412b3c1157a1d6339f60d20456b8e43cc244aeed7186f88807a813",
+  "error": null,
+  "headers": [
+    [
+      "Content-Type",
+      "application/ocsp-response"
+    ],
+    [
+      "Content-Length",
+      "2262"
+    ],
+    [
+      "X-Cached",
+      "STALE"
+    ],
+    [
+      "Strict-Transport-Security",
+      "max-age=63072000,includeSubDomains,preload"
+    ],
+    [
+      "Cache-Control",
+      "max-age=900"
+    ],
+    [
+      "Date",
+      "Wed, 28 Oct 2026 09:47:58 GMT"
+    ],
+    [
+      "Connection",
+      "close"
+    ]
+  ],
+  "method": "POST",
+  "recv_at": "2026-10-28T09:47:59.043681Z",
+  "rtt_seconds": "0.414298",
+  "send_at": "2026-10-28T09:47:58.629383Z",
+  "status": 200,
+  "url": "http://subca.ocsp-certum.com"
+}

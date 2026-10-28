@@ -1,0 +1,209 @@
+{
+  "classification": "PROBE / NON-FORMAL / PRE-SELECTION (third candidate, stage 1 only)",
+  "config_sha256": "ab751d902a794474c8891b6a744490ec392233f8282b535aedee44f2fd6f9d2f",
+  "files": [
+    {
+      "path": "C-CT/chain/aia_60f73dc4b3d7.bin",
+      "sha256": "5c58468d55f58e497e743982d2b50010b6d165374acf83a7d4a32db768c4408e"
+    },
+    {
+      "path": "C-CT/chain/aia_60f73dc4b3d7.http.json",
+      "sha256": "8affbe65992b970229b9079698b15fe56a715473343bf6ef217fdd02d2e31bf2"
+    },
+    {
+      "path": "C-CT/chain/chain_0.der",
+      "sha256": "85be90e10ad2438d7cc928b6af48b09ab208177cecf8b0126c58d3910525c43c"
+    },
+    {
+      "path": "C-CT/chain/chain_0.json",
+      "sha256": "e98ccc5adfbe7813a8d333f2079c873eafd6d6bd52904ede85f34cadb8ddb67e"
+    },
+    {
+      "path": "C-CT/chain/chain_1.der",
+      "sha256": "f882effc16de28d508c092e35825b00242cf963071c279ef09310d9d95784b35"
+    },
+    {
+      "path": "C-CT/chain/chain_1.json",
+      "sha256": "f32ad5902b2427c1f4788c44cf2442fef9d81849c08c29e29f15b735698ab005"
+    },
+    {
+      "path": "C-CT/chain/chain_2.der",
+      "sha256": "08e7eac998a62c4155cc4cbc5eda32f5b41a12c012f29ab3433bd366348149f0"
+    },
+    {
+      "path": "C-CT/chain/chain_2.json",
+      "sha256": "430569ac66f86a7f4ab653b24cb8a85ceac9f59cde31f3ee501161a8863db91f"
+    },
+    {
+      "path": "C-CT/chain/chain_3.der",
+      "sha256": "5c58468d55f58e497e743982d2b50010b6d165374acf83a7d4a32db768c4408e"
+    },
+    {
+      "path": "C-CT/chain/chain_3.json",
+      "sha256": "a903d6b1d1d0928149828588e156a7210f03c12b0c1f177cca16fb22334a9b05"
+    },
+    {
+      "path": "C-CT/chain/root_trust_store.json",
+      "sha256": "323b042f66dfc91c7a42dd3170f0239ea79ed6749ace75e18a40928505470e64"
+    },
+    {
+      "path": "C-CT/p1_tok1_1.http.json",
+      "sha256": "5b63868bfa9bfed91200a4da076ac810b62ce11e3c8e90245d8c6a96b5eadac7"
+    },
+    {
+      "path": "C-CT/p1_tok1_1.tsq",
+      "sha256": "396ce714cfaeac471bd4b4d99e2a131f25cb5cd7be92fbc62b3c0d8e4ff10cda"
+    },
+    {
+      "path": "C-CT/p1_tok1_1.tsr",
+      "sha256": "600b15982dea673fe262848bc40f8d2b4c80442635d008e2d69f30b1f789aa3e"
+    },
+    {
+      "path": "C-CT/p1_tok1_1.tsr.txt",
+      "sha256": "cc128670eb9e65d3fb18f971fe82b51c108df895ef7110660cbc9012b3a2b6dc"
+    },
+    {
+      "path": "C-CT/p1_tok2_1.http.json",
+      "sha256": "7b7097ca474d7e9e9f653a80b60786a6046ffbce4f67159e4d639b739f050ef3"
+    },
+    {
+      "path": "C-CT/p1_tok2_1.tsq",
+      "sha256": "f40cd4c9e6b4d1c5fa5f8275babbd8f04a6e4d6ce5218376d70380258d8d4c1b"
+    },
+    {
+      "path": "C-CT/p1_tok2_1.tsr",
+      "sha256": "8acf963432dad5b994da80c16961839f1a76d932b2a3702ebbf79340d2534701"
+    },
+    {
+      "path": "C-CT/p1_tok2_1.tsr.txt",
+      "sha256": "09a8a8a8feb16bfe531b8a997b5177753bac0807431868f7325ab54e44f958ee"
+    },
+    {
+      "path": "C-CT/p1_tok3_1.http.json",
+      "sha256": "8a0a3534b34ab20400a9583a041e51a88ccf5fdbc7c655fceacf7b927be30014"
+    },
+    {
+      "path": "C-CT/p1_tok3_1.tsq",
+      "sha256": "83910e43526466ae91dd917a3626f8c8783515b6fb68167db3c094d5ccfb99f0"
+    },
+    {
+      "path": "C-CT/p1_tok3_1.tsr",
+      "sha256": "a104f2a17a12b93f6f94aa4e57ca32c39a974c967943ea9456065a0c2a4bf500"
+    },
+    {
+      "path": "C-CT/p1_tok3_1.tsr.txt",
+      "sha256": "66dad8c616bb314165f9287aa57059945ba5b02774191f52d0cd320c0b4f5ee7"
+    },
+    {
+      "path": "C-CT/p1_tok4_1.http.json",
+      "sha256": "85ba6d7d5c1df3495cebb7a542e90cd5b51103c8cfe5a50a69de9f44f81bd101"
+    },
+    {
+      "path": "C-CT/p1_tok4_1.tsq",
+      "sha256": "7ff45487122a1094d5c27f9912e74629c0ac7269ec3cbc8748f65fc45042e727"
+    },
+    {
+      "path": "C-CT/p1_tok4_1.tsr",
+      "sha256": "49e9c596a19feb56e9a1734289fe804086825d406b40b5fa7563f9e9cd71cc16"
+    },
+    {
+      "path": "C-CT/p1_tok4_1.tsr.txt",
+      "sha256": "6995babfb5d2a3f7dfd03e0d2e82d867a9cbec2df4388a6657f0e18781dd7e2e"
+    },
+    {
+      "path": "C-CT/p1_tok5_1.http.json",
+      "sha256": "81df1d64639a192180fd68cd7b9edde75df3ea0f61e6f381228cad8a36bfb54c"
+    },
+    {
+      "path": "C-CT/p1_tok5_1.tsq",
+      "sha256": "8358548527b5768d243c37f145527528b055703cc7cfd5d2acedd469a4c172c3"
+    },
+    {
+      "path": "C-CT/p1_tok5_1.tsr",
+      "sha256": "877b1c4ef527886ed865b20fe6dfa87d3bb12457705af68d319d5c5fb8478a6a"
+    },
+    {
+      "path": "C-CT/p1_tok5_1.tsr.txt",
+      "sha256": "569b5cc046cdf36243e963ebc55bba1780c0257b4e6ddd7c3846cefcfe5a7cf2"
+    },
+    {
+      "path": "C-CT/rev/p1_intermediate_crl.der",
+      "sha256": "2c8a6db93d33c80063d048b2ccbfd0ce7bce73bb045370805ef53e12fa6064f5"
+    },
+    {
+      "path": "C-CT/rev/p1_intermediate_crl.http.json",
+      "sha256": "f61fa1622a25477355174479159a2503516c66d0da8309fe638458dbc260c391"
+    },
+    {
+      "path": "C-CT/rev/p1_intermediate_ocsp.der",
+      "sha256": "a5ece8a9af08c1c7a8162c17a69c79110d97a0592e65754eab1aeb4efb1784f6"
+    },
+    {
+      "path": "C-CT/rev/p1_intermediate_ocsp.http.json",
+      "sha256": "da76f2d0d1761c6d620321f72497a67dc0d0ceca96c2d23c155f41bbe2baaaff"
+    },
+    {
+      "path": "C-CT/rev/p1_intermediate_ocsp.req.der",
+      "sha256": "5b40891168bf6322630e3bfdec844fcc6cc51f9157ffc1757734775e61243a92"
+    },
+    {
+      "path": "C-CT/rev/p1_revocation.json",
+      "sha256": "ab38493d819372b9ba86718e10875c62ad1f7c0b942f6213e233bf03b9f73e6f"
+    },
+    {
+      "path": "C-CT/rev/p1_signer_crl.der",
+      "sha256": "d0df9afa6156336da1f65b5483ab693bb4896fd7204e3074549b164a23c02bce"
+    },
+    {
+      "path": "C-CT/rev/p1_signer_crl.http.json",
+      "sha256": "a5bf9249f77b0196520e0a76b4b449b6f603842caca3f62ae9346e0444ad25f8"
+    },
+    {
+      "path": "C-CT/rev/p1_signer_ocsp.der",
+      "sha256": "cf68b67450412b3c1157a1d6339f60d20456b8e43cc244aeed7186f88807a813"
+    },
+    {
+      "path": "C-CT/rev/p1_signer_ocsp.http.json",
+      "sha256": "ca3300e987cbacd4b1415f12943c0a2dfbf5aa8800b0d184b903b2f6d268c10d"
+    },
+    {
+      "path": "C-CT/rev/p1_signer_ocsp.req.der",
+      "sha256": "ca2087f8c3c3a75085c8a74f524aaa31916bc545b066e968afe09ebef8c57c69"
+    },
+    {
+      "path": "C-CT/station_log.json",
+      "sha256": "35d16c40dcbc5c5830a6e57bd73f0ff98ef31ae4624932cb8cfb115b8f0ec833"
+    }
+  ],
+  "finished_at": "2026-10-28T09:47:59.518837Z",
+  "github": {
+    "GITHUB_EVENT_NAME": "workflow_dispatch",
+    "GITHUB_REPOSITORY": "junsato1001-ops/-fx-forward-ledger-v2",
+    "GITHUB_RUN_ATTEMPT": "1",
+    "GITHUB_RUN_ID": "40666856282",
+    "GITHUB_SHA": "1532ea4496083c96456b1c40e04f8306d302da2d"
+  },
+  "launch_kind": "workflow_dispatch",
+  "mode": "p1",
+  "probe_run_id": "p1-40666856282-1",
+  "scheduled_time_utc": null,
+  "schema_version": "TSA_PROBE_RUN_V1",
+  "script_sha256": "f15735c2370539b54809cfb60737d43a56ec1970e3cc8dde1f8a34c458b0b6c5",
+  "spec_id": "M1-MACRO-PIPELINE-V2-TSA-THIRD-CANDIDATE-PROBE-SPEC-V0.1",
+  "spec_sha256": "0658b04b24ecb2c8ccb4e6e574fd07768ef79f51100c4135713c3dbe7747bd1a",
+  "started_at": "2026-10-28T09:46:37.536732Z",
+  "stations": [
+    {
+      "id": "C-CT",
+      "url": "http://time.certum.pl"
+    }
+  ],
+  "tools": {
+    "image_os": "ubuntu24",
+    "image_version": "20261023.334.3",
+    "openssl": "OpenSSL 3.0.13 30 Jan 2024 (Library: OpenSSL 3.0.13 30 Jan 2024)\nbuilt on: Wed Sep 16 18:47:02 2026 UTC\nplatform: debian-amd64\noptions:  bn(64,64)\ncompiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-yMWwKu/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-yMWwKu/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.16 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3\nOPENSSLDIR: \"/usr/lib/ssl\"\nENGINESDIR: \"/usr/lib/x86_64-linux-gnu/engines-3\"\nMODULESDIR: \"/usr/lib/x86_64-linux-gnu/ossl-modules\"\nSeeding source: os-specific\nCPUINFO: OPENSSL_ia32cap=0xfeda3203078bffff:0x400684219c07a9",
+    "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+    "runner_arch": "X64",
+    "runner_os": "Linux"
+  }
+}

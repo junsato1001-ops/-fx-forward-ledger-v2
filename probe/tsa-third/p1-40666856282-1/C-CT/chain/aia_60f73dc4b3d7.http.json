@@ -1,0 +1,46 @@
+{
+  "attempt": 1,
+  "body_length": 959,
+  "body_sha256": "5c58468d55f58e497e743982d2b50010b6d165374acf83a7d4a32db768c4408e",
+  "error": null,
+  "headers": [
+    [
+      "Content-Type",
+      "application/pkix-cert"
+    ],
+    [
+      "Content-Length",
+      "959"
+    ],
+    [
+      "Strict-Transport-Security",
+      "max-age=63072000; includeSubDomains"
+    ],
+    [
+      "Last-Modified",
+      "Fri, 06 Mar 2020 09:56:01 GMT"
+    ],
+    [
+      "Accept-Ranges",
+      "bytes"
+    ],
+    [
+      "Cache-Control",
+      "public, max-age=685"
+    ],
+    [
+      "Date",
+      "Wed, 28 Oct 2026 09:47:58 GMT"
+    ],
+    [
+      "Connection",
+      "close"
+    ]
+  ],
+  "method": "GET",
+  "recv_at": "2026-10-28T09:47:58.463144Z",
+  "rtt_seconds": "0.048819",
+  "send_at": "2026-10-28T09:47:58.414325Z",
+  "status": 200,
+  "url": "http://repository.certum.pl/ctnca.cer"
+}

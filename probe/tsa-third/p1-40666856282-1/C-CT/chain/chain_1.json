@@ -1,0 +1,27 @@
+{
+  "ca_issuers_urls": [
+    "http://repository.certum.pl/ctnca2.cer"
+  ],
+  "crl_urls": [
+    "http://crl.certum.pl/ctnca2.crl"
+  ],
+  "eku": [
+    "1.3.6.1.5.5.7.3.8"
+  ],
+  "eku_critical": false,
+  "issuer_der_sha256": "c8f52e90608a9b6669f44d5bf06b2ced8989c91782db89e8ac856f6e231c0210",
+  "not_after": "360518053207Z",
+  "not_before": "210519053207Z",
+  "ocsp_urls": [
+    "http://subca.ocsp-certum.com"
+  ],
+  "self_issued": false,
+  "serial": "308377848162979334299411899320923366791",
+  "serial_hex": "e7ff69c73b35ce4b9126d8747c68a587",
+  "sha1_fingerprint": "ef363d93f90561f1b10b407870528f3401e8a597",
+  "sha256_fingerprint": "f882effc16de28d508c092e35825b00242cf963071c279ef09310d9d95784b35",
+  "ski_hex": "be54022fbf406c7343ceac09254e9e43441aeee0",
+  "subject_der_sha256": "658a72f2daaf6e243d19f5e5fe4b77595db569891bdfe087dc0a8ae3ef096862",
+  "subject_issuer_text": "subject=CN=Certum Timestamping 2021 CA,O=Asseco Data Systems S.A.,C=PL\nissuer=CN=Certum Trusted Network CA 2,OU=Certum Certification Authority,O=Unizeto Technologies S.A.,C=PL",
+  "version": 3
+}

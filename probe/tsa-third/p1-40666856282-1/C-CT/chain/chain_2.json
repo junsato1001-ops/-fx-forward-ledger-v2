@@ -1,0 +1,25 @@
+{
+  "ca_issuers_urls": [
+    "http://repository.certum.pl/ctnca.cer"
+  ],
+  "crl_urls": [
+    "http://crl.certum.pl/ctnca.crl"
+  ],
+  "eku": null,
+  "eku_critical": null,
+  "issuer_der_sha256": "f68b480e36604405dafa39e72c26039861a0beb22689ab6e9d194c90062565d0",
+  "not_after": "290917064306Z",
+  "not_before": "210531064306Z",
+  "ocsp_urls": [
+    "http://subca.ocsp-certum.com"
+  ],
+  "self_issued": false,
+  "serial": "36831864946870993744187066625231351079",
+  "serial_hex": "1bb58f252adf23004928c9ae3d7eed27",
+  "sha1_fingerprint": "5f14876473a0ec43df0ae794a2805fc461125d62",
+  "sha256_fingerprint": "08e7eac998a62c4155cc4cbc5eda32f5b41a12c012f29ab3433bd366348149f0",
+  "ski_hex": "b6a1543902c3a03f8e8abcfad4f81ca6d13a0efd",
+  "subject_der_sha256": "c8f52e90608a9b6669f44d5bf06b2ced8989c91782db89e8ac856f6e231c0210",
+  "subject_issuer_text": "subject=CN=Certum Trusted Network CA 2,OU=Certum Certification Authority,O=Unizeto Technologies S.A.,C=PL\nissuer=CN=Certum Trusted Network CA,OU=Certum Certification Authority,O=Unizeto Technologies S.A.,C=PL",
+  "version": 3
+}

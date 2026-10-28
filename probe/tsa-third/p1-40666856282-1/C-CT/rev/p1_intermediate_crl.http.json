@@ -1,0 +1,42 @@
+{
+  "attempt": 1,
+  "body_length": 825,
+  "body_sha256": "2c8a6db93d33c80063d048b2ccbfd0ce7bce73bb045370805ef53e12fa6064f5",
+  "error": null,
+  "headers": [
+    [
+      "Content-Type",
+      "application/pkix-crl"
+    ],
+    [
+      "Content-Length",
+      "825"
+    ],
+    [
+      "Last-Modified",
+      "Tue, 28 Jul 2026 10:43:52 GMT"
+    ],
+    [
+      "Accept-Ranges",
+      "bytes"
+    ],
+    [
+      "Cache-Control",
+      "public, max-age=60"
+    ],
+    [
+      "Date",
+      "Wed, 28 Oct 2026 09:47:59 GMT"
+    ],
+    [
+      "Connection",
+      "close"
+    ]
+  ],
+  "method": "GET",
+  "recv_at": "2026-10-28T09:47:59.516391Z",
+  "rtt_seconds": "0.008932",
+  "send_at": "2026-10-28T09:47:59.507459Z",
+  "status": 200,
+  "url": "http://crl.certum.pl/ctnca2.crl"
+}

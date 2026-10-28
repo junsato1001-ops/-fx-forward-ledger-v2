@@ -1,0 +1,36 @@
+{
+  "attempt": 1,
+  "body_length": 6164,
+  "body_sha256": "600b15982dea673fe262848bc40f8d2b4c80442635d008e2d69f30b1f789aa3e",
+  "error": null,
+  "headers": [
+    [
+      "Date",
+      "Wed, 28 Oct 2026 09:46:38 GMT"
+    ],
+    [
+      "Content-Type",
+      "application/timestamp-reply"
+    ],
+    [
+      "Content-Length",
+      "6164"
+    ],
+    [
+      "Connection",
+      "close"
+    ]
+  ],
+  "imprint_hex": "9d916aa1b78343400e2bddfdcc241ed7ba3556268cfcf541db66572e020453d3",
+  "label": "p1_tok1",
+  "method": "POST",
+  "nonce": "2701575885832713376",
+  "outcome": "ok",
+  "recv_at": "2026-10-28T09:46:38.211272Z",
+  "rtt_seconds": "0.671162",
+  "send_at": "2026-10-28T09:46:37.540110Z",
+  "seqno": 1,
+  "status": 200,
+  "tsq_sha256": "396ce714cfaeac471bd4b4d99e2a131f25cb5cd7be92fbc62b3c0d8e4ff10cda",
+  "url": "http://time.certum.pl"
+}

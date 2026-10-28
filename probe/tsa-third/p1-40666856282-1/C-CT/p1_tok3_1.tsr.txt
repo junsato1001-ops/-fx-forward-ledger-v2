@@ -1,0 +1,22 @@
+Status info:
+Status: Granted.
+Status description: unspecified
+Failure info: unspecified
+
+TST info:
+Version: 1
+Policy OID: 1.2.616.1.113527.2.5.1.11
+Hash Algorithm: sha256
+Message data:
+    0000 - cc f1 53 35 b2 14 04 7f-04 3c ca 7e 35 3e 98 66   ..S5.....<.~5>.f
+    0010 - f1 0c b9 a2 cd 3b 41 97-bc af f7 89 50 aa f0 27   .....;A.....P..'
+Serial number: 0x0AA87C74F6A30B
+Time stamp: Oct 28 09:47:17 2026 GMT
+Accuracy: 0x01 seconds, unspecified millis, unspecified micros
+Ordering: no
+Nonce: 0x79B8525F9CDB271D
+TSA: DirName:/C=PL/O=Asseco Data Systems S.A./CN=Certum Timestamp 2026
+Extensions:
+
+[stderr]
+Using configuration from /usr/lib/ssl/openssl.cnf

@@ -1,0 +1,42 @@
+{
+  "attempt": 1,
+  "body_length": 725,
+  "body_sha256": "d0df9afa6156336da1f65b5483ab693bb4896fd7204e3074549b164a23c02bce",
+  "error": null,
+  "headers": [
+    [
+      "Content-Type",
+      "application/pkix-crl"
+    ],
+    [
+      "Content-Length",
+      "725"
+    ],
+    [
+      "Last-Modified",
+      "Thu, 16 Apr 2026 11:43:28 GMT"
+    ],
+    [
+      "Accept-Ranges",
+      "bytes"
+    ],
+    [
+      "Cache-Control",
+      "public, max-age=60"
+    ],
+    [
+      "Date",
+      "Wed, 28 Oct 2026 09:47:59 GMT"
+    ],
+    [
+      "Connection",
+      "close"
+    ]
+  ],
+  "method": "GET",
+  "recv_at": "2026-10-28T09:47:59.055601Z",
+  "rtt_seconds": "0.010994",
+  "send_at": "2026-10-28T09:47:59.044607Z",
+  "status": 200,
+  "url": "http://subca.crl.certum.pl/ctsca2021.crl"
+}

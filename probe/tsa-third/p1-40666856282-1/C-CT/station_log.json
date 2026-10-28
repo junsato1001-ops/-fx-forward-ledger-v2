@@ -1,0 +1,96 @@
+{
+  "events": [
+    {
+      "at": "2026-10-28T09:46:38.217615Z",
+      "attempt": 1,
+      "http_status": 200,
+      "kind": "tsa_request",
+      "label": "p1_tok1",
+      "outcome": "ok",
+      "rtt_seconds": "0.671162",
+      "station": "C-CT"
+    },
+    {
+      "at": "2026-10-28T09:46:58.037234Z",
+      "attempt": 1,
+      "http_status": 200,
+      "kind": "tsa_request",
+      "label": "p1_tok2",
+      "outcome": "ok",
+      "rtt_seconds": "0.491662",
+      "station": "C-CT"
+    },
+    {
+      "at": "2026-10-28T09:47:18.013509Z",
+      "attempt": 1,
+      "http_status": 200,
+      "kind": "tsa_request",
+      "label": "p1_tok3",
+      "outcome": "ok",
+      "rtt_seconds": "0.468060",
+      "station": "C-CT"
+    },
+    {
+      "at": "2026-10-28T09:47:38.012294Z",
+      "attempt": 1,
+      "http_status": 200,
+      "kind": "tsa_request",
+      "label": "p1_tok4",
+      "outcome": "ok",
+      "rtt_seconds": "0.466900",
+      "station": "C-CT"
+    },
+    {
+      "at": "2026-10-28T09:47:58.179315Z",
+      "attempt": 1,
+      "http_status": 200,
+      "kind": "tsa_request",
+      "label": "p1_tok5",
+      "outcome": "ok",
+      "rtt_seconds": "0.632988",
+      "station": "C-CT"
+    },
+    {
+      "at": "2026-10-28T09:47:59.516992Z",
+      "available": true,
+      "http_status": 200,
+      "kind": "revocation_fetch",
+      "role": "signer",
+      "station": "C-CT",
+      "tag": "p1",
+      "type": "ocsp"
+    },
+    {
+      "at": "2026-10-28T09:47:59.517007Z",
+      "available": true,
+      "http_status": 200,
+      "kind": "revocation_fetch",
+      "role": "signer",
+      "station": "C-CT",
+      "tag": "p1",
+      "type": "crl"
+    },
+    {
+      "at": "2026-10-28T09:47:59.517013Z",
+      "available": true,
+      "http_status": 200,
+      "kind": "revocation_fetch",
+      "role": "intermediate",
+      "station": "C-CT",
+      "tag": "p1",
+      "type": "ocsp"
+    },
+    {
+      "at": "2026-10-28T09:47:59.517017Z",
+      "available": true,
+      "http_status": 200,
+      "kind": "revocation_fetch",
+      "role": "intermediate",
+      "station": "C-CT",
+      "tag": "p1",
+      "type": "crl"
+    }
+  ],
+  "stopped": null,
+  "tsa_requests": 5
+}

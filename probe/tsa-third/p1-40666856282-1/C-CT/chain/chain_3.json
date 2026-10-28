@@ -1,0 +1,19 @@
+{
+  "ca_issuers_urls": [],
+  "crl_urls": [],
+  "eku": null,
+  "eku_critical": null,
+  "issuer_der_sha256": "f68b480e36604405dafa39e72c26039861a0beb22689ab6e9d194c90062565d0",
+  "not_after": "291231120737Z",
+  "not_before": "081022120737Z",
+  "ocsp_urls": [],
+  "self_issued": true,
+  "serial": "279744",
+  "serial_hex": "444c0",
+  "sha1_fingerprint": "07e032e020b72c3f192f0628a2593a19a70f069e",
+  "sha256_fingerprint": "5c58468d55f58e497e743982d2b50010b6d165374acf83a7d4a32db768c4408e",
+  "ski_hex": "0876cdcb07ff24f6c5cdedbb90bce284374675f7",
+  "subject_der_sha256": "f68b480e36604405dafa39e72c26039861a0beb22689ab6e9d194c90062565d0",
+  "subject_issuer_text": "subject=CN=Certum Trusted Network CA,OU=Certum Certification Authority,O=Unizeto Technologies S.A.,C=PL\nissuer=CN=Certum Trusted Network CA,OU=Certum Certification Authority,O=Unizeto Technologies S.A.,C=PL",
+  "version": 3
+}
