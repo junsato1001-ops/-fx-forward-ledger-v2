@@ -1,0 +1,78 @@
+{
+  "attempt": 1,
+  "body_length": 732,
+  "body_sha256": "c858579bb6fcab679b5689f813bdcc3a484cf099b17eec2c004f91c2f91b41d4",
+  "error": null,
+  "headers": [
+    [
+      "Connection",
+      "close"
+    ],
+    [
+      "Content-Length",
+      "732"
+    ],
+    [
+      "Server",
+      "nginx"
+    ],
+    [
+      "Content-Type",
+      "application/pkix-crl"
+    ],
+    [
+      "Last-Modified",
+      "Tue, 07 Jul 2026 00:00:00 GMT"
+    ],
+    [
+      "ETag",
+      "03"
+    ],
+    [
+      "Expires",
+      "Fri, 15 Jan 2027 00:00:00 GMT"
+    ],
+    [
+      "Cache-Control",
+      "public, no-transform, must-revalidate, s-maxage=3600"
+    ],
+    [
+      "Via",
+      "1.1 varnish, 1.1 varnish"
+    ],
+    [
+      "Accept-Ranges",
+      "bytes"
+    ],
+    [
+      "Age",
+      "3057"
+    ],
+    [
+      "Date",
+      "Wed, 28 Oct 2026 09:17:48 GMT"
+    ],
+    [
+      "X-Served-By",
+      "cache-sin-wsat1880071-SIN, cache-hhr-khhr2060030-HHR"
+    ],
+    [
+      "X-Cache",
+      "HIT, HIT"
+    ],
+    [
+      "X-Cache-Hits",
+      "161, 0"
+    ],
+    [
+      "X-Timer",
+      "S1793179068.077203,VS0,VE0"
+    ]
+  ],
+  "method": "GET",
+  "recv_at": "2026-10-28T09:17:48.082186Z",
+  "rtt_seconds": "0.032240",
+  "send_at": "2026-10-28T09:17:48.049946Z",
+  "status": 200,
+  "url": "http://crl.globalsign.com/gsoffliner45timestampca2025.crl"
+}

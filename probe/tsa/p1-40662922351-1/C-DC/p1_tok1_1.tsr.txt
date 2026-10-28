@@ -1,0 +1,22 @@
+Status info:
+Status: Granted.
+Status description: unspecified
+Failure info: unspecified
+
+TST info:
+Version: 1
+Policy OID: 2.16.840.1.114412.7.1
+Hash Algorithm: sha256
+Message data:
+    0000 - d2 2a 42 18 f0 88 b1 3c-1d 3d 56 b9 57 bd f5 29   .*B....<.=V.W..)
+    0010 - 98 4c 8f 8f 45 f6 55 1c-b1 8f 69 c6 d8 65 2a ba   .L..E.U...i..e*.
+Serial number: 0x8AB46C901F64C3458108C8495DA0242D
+Time stamp: Oct 28 09:16:26 2026 GMT
+Accuracy: unspecified
+Ordering: no
+Nonce: 0x9A1CF1E97F69EA12
+TSA: unspecified
+Extensions:
+
+[stderr]
+Using configuration from /usr/lib/ssl/openssl.cnf

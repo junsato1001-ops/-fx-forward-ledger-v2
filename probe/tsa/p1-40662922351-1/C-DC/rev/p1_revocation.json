@@ -1,0 +1,84 @@
+[
+  {
+    "available": true,
+    "base": "p1_signer_ocsp",
+    "fetched_at": "2026-10-28T09:17:47.251179Z",
+    "http_status": 200,
+    "kind": "ocsp",
+    "parsed": {
+      "produced_at_raw": "20260805000000Z",
+      "response_status": 0,
+      "response_type": "1.3.6.1.5.5.7.48.1.1",
+      "responses": [
+        {
+          "cert_status": "good",
+          "next_update_raw": "20270201000000Z",
+          "revocation_time_raw": null,
+          "serial": "11048481613454637687985428644217624629",
+          "this_update_raw": "20260805000000Z"
+        }
+      ]
+    },
+    "role": "signer",
+    "url": "http://ocsp.digicert.com"
+  },
+  {
+    "available": true,
+    "base": "p1_signer_crl",
+    "fetched_at": "2026-10-28T09:17:47.279377Z",
+    "http_status": 200,
+    "kind": "crl",
+    "parsed": {
+      "crl_number": "78",
+      "issuer_der_sha256": "b98f7ad614bcbb12d3f828cead63975906782470985b7cf42a6590feffb05c46",
+      "next_update_raw": "261111164026Z",
+      "revoked_count": 0,
+      "target_listed": null,
+      "target_revocation_date_raw": null,
+      "this_update_raw": "261021164026Z"
+    },
+    "role": "signer",
+    "url": "http://crl3.digicert.com/DigiCertTrustedG4TimeStampingRSA4096SHA2562025CA1.crl"
+  },
+  {
+    "available": true,
+    "base": "p1_intermediate_ocsp",
+    "fetched_at": "2026-10-28T09:17:47.324163Z",
+    "http_status": 200,
+    "kind": "ocsp",
+    "parsed": {
+      "produced_at_raw": "20261027182953Z",
+      "response_status": 0,
+      "response_type": "1.3.6.1.5.5.7.48.1.1",
+      "responses": [
+        {
+          "cert_status": "good",
+          "next_update_raw": "20261103182953Z",
+          "revocation_time_raw": null,
+          "serial": "18316726489210163671024321415498844550",
+          "this_update_raw": "20261027182953Z"
+        }
+      ]
+    },
+    "role": "intermediate",
+    "url": "http://ocsp.digicert.com"
+  },
+  {
+    "available": true,
+    "base": "p1_intermediate_crl",
+    "fetched_at": "2026-10-28T09:17:47.350631Z",
+    "http_status": 200,
+    "kind": "crl",
+    "parsed": {
+      "crl_number": "776",
+      "issuer_der_sha256": "88a9c037ef37d041b8e82ecfdef270b51c412937a7e05cb9e15a4fef53d5d297",
+      "next_update_raw": "261113174235Z",
+      "revoked_count": 0,
+      "target_listed": null,
+      "target_revocation_date_raw": null,
+      "this_update_raw": "261023174235Z"
+    },
+    "role": "intermediate",
+    "url": "http://crl3.digicert.com/DigiCertTrustedRootG4.crl"
+  }
+]

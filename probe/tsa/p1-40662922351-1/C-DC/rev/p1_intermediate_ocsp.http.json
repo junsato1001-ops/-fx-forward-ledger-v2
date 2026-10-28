@@ -1,0 +1,50 @@
+{
+  "attempt": 1,
+  "body_length": 727,
+  "body_sha256": "01c2b045172c65d290e17a253981235dd73bac07aace5d61eaadfbe877d2bf7a",
+  "error": null,
+  "headers": [
+    [
+      "Content-Type",
+      "application/ocsp-response"
+    ],
+    [
+      "Content-Length",
+      "727"
+    ],
+    [
+      "X-XSS-Protection",
+      "1; mode=block"
+    ],
+    [
+      "X-Frame-Options",
+      "SAMEORIGIN"
+    ],
+    [
+      "X-Content-Type-Options",
+      "nosniff"
+    ],
+    [
+      "X-DC-POP",
+      "dub-003"
+    ],
+    [
+      "Cache-Control",
+      "max-age=814"
+    ],
+    [
+      "Date",
+      "Wed, 28 Oct 2026 09:17:47 GMT"
+    ],
+    [
+      "Connection",
+      "close"
+    ]
+  ],
+  "method": "POST",
+  "recv_at": "2026-10-28T09:17:47.324163Z",
+  "rtt_seconds": "0.023870",
+  "send_at": "2026-10-28T09:17:47.300293Z",
+  "status": 200,
+  "url": "http://ocsp.digicert.com"
+}
