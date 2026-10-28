@@ -17,7 +17,7 @@
   "p1_min_spacing_seconds": 20,
   "p3_slot_minute_utc": 41,
   "p3_slot_count": 48,
-  "p3_first_slot_utc": null,
+  "p3_first_slot_utc": "2026-10-29T00:41:00Z",
   "p3_refetch_wait_seconds": 900,
   "p3_window_hours": 6,
   "rtt_reference_seconds": 2.0
