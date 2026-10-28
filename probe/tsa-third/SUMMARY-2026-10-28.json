@@ -1,0 +1,355 @@
+{
+  "classification": "PROBE / NON-FORMAL / PRE-SELECTION (third candidate, stage 1 only)",
+  "config_sha256": "ab751d902a794474c8891b6a744490ec392233f8282b535aedee44f2fd6f9d2f",
+  "inputs": {
+    "p1": [
+      "p1-40666856282-1"
+    ],
+    "p3": [],
+    "p4": [
+      "p4-40668734598-1"
+    ]
+  },
+  "note": "Descriptive probe results only. No pass/fail threshold (spec 6.2). p_min 0.99 is not used. R-ACC-12 is N/A (verifier rule); R-ACC-13 is not measured by the probe (spec 8).",
+  "p3_slots": {
+    "configured": 0,
+    "not_observed": [],
+    "with_run": 0
+  },
+  "schema_version": "TSA_PROBE_SUMMARY_V1",
+  "spec_id": "M1-MACRO-PIPELINE-V2-TSA-THIRD-CANDIDATE-PROBE-SPEC-V0.1",
+  "spec_sha256": "0658b04b24ecb2c8ccb4e6e574fd07768ef79f51100c4135713c3dbe7747bd1a",
+  "stations": {
+    "C-CT": {
+      "checks_over_p1_tokens": {
+        "n_tokens": 5,
+        "result": {
+          "10_chain_verify_offline": "PASS_IN_PROBE",
+          "12a_not_revoked_at_gentime": "FAIL",
+          "1_status": "PASS_IN_PROBE",
+          "2_request_imprint_nonce_certreq": "PASS_IN_PROBE",
+          "3_imprint": "PASS_IN_PROBE",
+          "4_nonce": "PASS_IN_PROBE",
+          "6_accuracy_le_1s": "PASS_IN_PROBE",
+          "7_gentime_utc": "PASS_IN_PROBE",
+          "8a_signature_alg": "PASS_IN_PROBE",
+          "8b_esscertid": "PASS_IN_PROBE",
+          "9_eku_timestamping_only_critical": "PASS_IN_PROBE"
+        },
+        "rule": "any failing token -> FAIL (spec 6.1)"
+      },
+      "freshness": {
+        "intermediate_crl": {
+          "fresh_vs_same_token_fetch1": {
+            "pass": 0,
+            "stale_runs": [],
+            "total": 0,
+            "verdict": "NOT_OBSERVED"
+          },
+          "fresh_vs_same_token_fetch2": {
+            "pass": 0,
+            "stale_runs": [],
+            "total": 0,
+            "verdict": "NOT_OBSERVED"
+          },
+          "fresh_vs_window_attempts": {
+            "pass": 0,
+            "per_fetch": [],
+            "stale_pairs": [],
+            "total_pairs": 0,
+            "verdict": "NOT_OBSERVED"
+          },
+          "issued_time_series": [],
+          "lag_seconds": null,
+          "max_gentime_window_derived": {
+            "pass": 0,
+            "total": 0
+          },
+          "runs_not_observed": 0,
+          "use": "TSA-F2 material only"
+        },
+        "intermediate_ocsp": {
+          "fresh_vs_same_token_fetch1": {
+            "pass": 0,
+            "stale_runs": [],
+            "total": 0,
+            "verdict": "NOT_OBSERVED"
+          },
+          "fresh_vs_same_token_fetch2": {
+            "pass": 0,
+            "stale_runs": [],
+            "total": 0,
+            "verdict": "NOT_OBSERVED"
+          },
+          "fresh_vs_window_attempts": {
+            "pass": 0,
+            "per_fetch": [],
+            "stale_pairs": [],
+            "total_pairs": 0,
+            "verdict": "NOT_OBSERVED"
+          },
+          "issued_time_series": [],
+          "lag_seconds": null,
+          "max_gentime_window_derived": {
+            "pass": 0,
+            "total": 0
+          },
+          "runs_not_observed": 0,
+          "use": "TSA-F2 material only"
+        },
+        "signer_crl": {
+          "fresh_vs_same_token_fetch1": {
+            "pass": 0,
+            "stale_runs": [],
+            "total": 0,
+            "verdict": "NOT_OBSERVED"
+          },
+          "fresh_vs_same_token_fetch2": {
+            "pass": 0,
+            "stale_runs": [],
+            "total": 0,
+            "verdict": "NOT_OBSERVED"
+          },
+          "fresh_vs_window_attempts": {
+            "pass": 0,
+            "per_fetch": [],
+            "stale_pairs": [],
+            "total_pairs": 0,
+            "verdict": "NOT_OBSERVED"
+          },
+          "issued_time_series": [],
+          "lag_seconds": null,
+          "max_gentime_window_derived": {
+            "pass": 0,
+            "total": 0
+          },
+          "runs_not_observed": 0,
+          "use": "TSA-F1"
+        },
+        "signer_ocsp": {
+          "fresh_vs_same_token_fetch1": {
+            "pass": 0,
+            "stale_runs": [],
+            "total": 0,
+            "verdict": "NOT_OBSERVED"
+          },
+          "fresh_vs_same_token_fetch2": {
+            "pass": 0,
+            "stale_runs": [],
+            "total": 0,
+            "verdict": "NOT_OBSERVED"
+          },
+          "fresh_vs_window_attempts": {
+            "pass": 0,
+            "per_fetch": [],
+            "stale_pairs": [],
+            "total_pairs": 0,
+            "verdict": "NOT_OBSERVED"
+          },
+          "issued_time_series": [],
+          "lag_seconds": null,
+          "max_gentime_window_derived": {
+            "pass": 0,
+            "total": 0
+          },
+          "runs_not_observed": 0,
+          "use": "TSA-F1"
+        }
+      },
+      "policy_discovery": [
+        "1.2.616.1.113527.2.5.1.11"
+      ],
+      "r_acc": {
+        "R-ACC-12": "N/A (verifier rule, Part 2 §6.1/§6.2)",
+        "R-ACC-13": "NOT MEASURED (provider written confirmation, spec 8)",
+        "R-ACC-8": "POLICY_DISCOVERY_ONLY (no reqPolicy; not a Part 2 policy-check PASS)"
+      },
+      "reachability": {},
+      "reachability_path_A": {
+        "aia": {
+          "http_200": 1,
+          "requests": 1,
+          "rtt_le_2s": {
+            "count": 1,
+            "note": "reference only (spec 6.3)",
+            "of": 1
+          },
+          "rtt_seconds": {
+            "max": "0.048819",
+            "median": "0.048819",
+            "min": "0.048819",
+            "n": 1
+          }
+        },
+        "crl": {
+          "http_200": 2,
+          "requests": 2,
+          "rtt_le_2s": {
+            "count": 2,
+            "note": "reference only (spec 6.3)",
+            "of": 2
+          },
+          "rtt_seconds": {
+            "max": "0.010994",
+            "median": "0.009963",
+            "min": "0.008932",
+            "n": 2
+          }
+        },
+        "ocsp": {
+          "http_200": 2,
+          "requests": 2,
+          "rtt_le_2s": {
+            "count": 2,
+            "note": "reference only (spec 6.3)",
+            "of": 2
+          },
+          "rtt_seconds": {
+            "max": "0.426156",
+            "median": "0.420227",
+            "min": "0.414298",
+            "n": 2
+          }
+        },
+        "tsa": {
+          "http_200": 5,
+          "requests": 5,
+          "rtt_le_2s": {
+            "count": 5,
+            "note": "reference only (spec 6.3)",
+            "of": 5
+          },
+          "rtt_seconds": {
+            "max": "0.671162",
+            "median": "0.491662",
+            "min": "0.466900",
+            "n": 5
+          }
+        }
+      },
+      "tokens": [
+        {
+          "accuracy": {
+            "micros": null,
+            "millis": null,
+            "seconds": 1
+          },
+          "checks": {
+            "10_chain_verify_offline": true,
+            "12a_not_revoked_at_gentime": false,
+            "1_status": true,
+            "2_request_imprint_nonce_certreq": true,
+            "3_imprint": true,
+            "4_nonce": true,
+            "6_accuracy_le_1s": true,
+            "7_gentime_utc": true,
+            "8a_signature_alg": true,
+            "8b_esscertid": true,
+            "9_eku_timestamping_only_critical": true
+          },
+          "file": "p1-40666856282-1/C-CT/p1_tok1_1",
+          "gen_time_raw": "20261028094638Z",
+          "status": 0,
+          "status_string": null
+        },
+        {
+          "accuracy": {
+            "micros": null,
+            "millis": null,
+            "seconds": 1
+          },
+          "checks": {
+            "10_chain_verify_offline": true,
+            "12a_not_revoked_at_gentime": false,
+            "1_status": true,
+            "2_request_imprint_nonce_certreq": true,
+            "3_imprint": true,
+            "4_nonce": true,
+            "6_accuracy_le_1s": true,
+            "7_gentime_utc": true,
+            "8a_signature_alg": true,
+            "8b_esscertid": true,
+            "9_eku_timestamping_only_critical": true
+          },
+          "file": "p1-40666856282-1/C-CT/p1_tok2_1",
+          "gen_time_raw": "20261028094657Z",
+          "status": 0,
+          "status_string": null
+        },
+        {
+          "accuracy": {
+            "micros": null,
+            "millis": null,
+            "seconds": 1
+          },
+          "checks": {
+            "10_chain_verify_offline": true,
+            "12a_not_revoked_at_gentime": false,
+            "1_status": true,
+            "2_request_imprint_nonce_certreq": true,
+            "3_imprint": true,
+            "4_nonce": true,
+            "6_accuracy_le_1s": true,
+            "7_gentime_utc": true,
+            "8a_signature_alg": true,
+            "8b_esscertid": true,
+            "9_eku_timestamping_only_critical": true
+          },
+          "file": "p1-40666856282-1/C-CT/p1_tok3_1",
+          "gen_time_raw": "20261028094717Z",
+          "status": 0,
+          "status_string": null
+        },
+        {
+          "accuracy": {
+            "micros": null,
+            "millis": null,
+            "seconds": 1
+          },
+          "checks": {
+            "10_chain_verify_offline": true,
+            "12a_not_revoked_at_gentime": false,
+            "1_status": true,
+            "2_request_imprint_nonce_certreq": true,
+            "3_imprint": true,
+            "4_nonce": true,
+            "6_accuracy_le_1s": true,
+            "7_gentime_utc": true,
+            "8a_signature_alg": true,
+            "8b_esscertid": true,
+            "9_eku_timestamping_only_critical": true
+          },
+          "file": "p1-40666856282-1/C-CT/p1_tok4_1",
+          "gen_time_raw": "20261028094737Z",
+          "status": 0,
+          "status_string": null
+        },
+        {
+          "accuracy": {
+            "micros": null,
+            "millis": null,
+            "seconds": 1
+          },
+          "checks": {
+            "10_chain_verify_offline": true,
+            "12a_not_revoked_at_gentime": false,
+            "1_status": true,
+            "2_request_imprint_nonce_certreq": true,
+            "3_imprint": true,
+            "4_nonce": true,
+            "6_accuracy_le_1s": true,
+            "7_gentime_utc": true,
+            "8a_signature_alg": true,
+            "8b_esscertid": true,
+            "9_eku_timestamping_only_critical": true
+          },
+          "file": "p1-40666856282-1/C-CT/p1_tok5_1",
+          "gen_time_raw": "20261028094758Z",
+          "status": 0,
+          "status_string": null
+        }
+      ]
+    }
+  },
+  "summary_script_sha256": "f15735c2370539b54809cfb60737d43a56ec1970e3cc8dde1f8a34c458b0b6c5"
+}
