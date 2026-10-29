@@ -1,0 +1,25 @@
+{
+  "ca_issuers_urls": [
+    "http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt"
+  ],
+  "crl_urls": [
+    "http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl"
+  ],
+  "eku": null,
+  "eku_critical": null,
+  "issuer_der_sha256": "ca022c70a9410a6af9e797acde44619a47b3aa2f308dd95262ff5020ad62426d",
+  "not_after": "311109235959Z",
+  "not_before": "220801000000Z",
+  "ocsp_urls": [
+    "http://ocsp.digicert.com"
+  ],
+  "self_issued": false,
+  "serial": "19414496059604725969669510860671817818",
+  "serial_hex": "e9b188ef9d02de7efdb50e20840185a",
+  "sha1_fingerprint": "a99d5b79e9f1cda59cdab6373169d5353f5874c6",
+  "sha256_fingerprint": "33846b545a49c9be4903c60e01713c1bd4e4ef31ea65cd95d69e62794f30b941",
+  "ski_hex": "ecd7e382d2715d644cdf2e673fe7ba98ae1c0f4f",
+  "subject_der_sha256": "88a9c037ef37d041b8e82ecfdef270b51c412937a7e05cb9e15a4fef53d5d297",
+  "subject_issuer_text": "subject=CN=DigiCert Trusted Root G4,OU=www.digicert.com,O=DigiCert Inc,C=US\nissuer=CN=DigiCert Assured ID Root CA,OU=www.digicert.com,O=DigiCert Inc,C=US",
+  "version": 3
+}

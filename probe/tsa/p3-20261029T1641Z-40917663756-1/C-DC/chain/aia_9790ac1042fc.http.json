@@ -1,0 +1,50 @@
+{
+  "attempt": 1,
+  "body_length": 955,
+  "body_sha256": "3e9099b5015e8f486c00bcea9d111ee721faba355a89bcf1df69561e3dc6325c",
+  "error": null,
+  "headers": [
+    [
+      "Content-Type",
+      "application/pkix-cert"
+    ],
+    [
+      "Content-Length",
+      "955"
+    ],
+    [
+      "Last-Modified",
+      "Wed, 06 Dec 2017 21:41:42 GMT"
+    ],
+    [
+      "ETag",
+      "\"5a286416-3bb\""
+    ],
+    [
+      "Accept-Ranges",
+      "bytes"
+    ],
+    [
+      "Cache-Control",
+      "public, max-age=669"
+    ],
+    [
+      "Date",
+      "Thu, 29 Oct 2026 17:03:49 GMT"
+    ],
+    [
+      "Connection",
+      "close"
+    ],
+    [
+      "X-N",
+      "S"
+    ]
+  ],
+  "method": "GET",
+  "recv_at": "2026-10-29T17:03:49.944955Z",
+  "rtt_seconds": "0.030454",
+  "send_at": "2026-10-29T17:03:49.914501Z",
+  "status": 200,
+  "url": "http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt"
+}

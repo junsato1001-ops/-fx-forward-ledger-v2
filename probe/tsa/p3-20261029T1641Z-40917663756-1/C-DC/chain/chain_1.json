@@ -1,0 +1,27 @@
+{
+  "ca_issuers_urls": [
+    "http://cacerts.digicert.com/DigiCertTrustedRootG4.crt"
+  ],
+  "crl_urls": [
+    "http://crl3.digicert.com/DigiCertTrustedRootG4.crl"
+  ],
+  "eku": [
+    "1.3.6.1.5.5.7.3.8"
+  ],
+  "eku_critical": false,
+  "issuer_der_sha256": "88a9c037ef37d041b8e82ecfdef270b51c412937a7e05cb9e15a4fef53d5d297",
+  "not_after": "380114235959Z",
+  "not_before": "250507000000Z",
+  "ocsp_urls": [
+    "http://ocsp.digicert.com"
+  ],
+  "self_issued": false,
+  "serial": "18316726489210163671024321415498844550",
+  "serial_hex": "dc7ac5705ff21992e4043220c3a4986",
+  "sha1_fingerprint": "07894d00fc194a17db273aeb5cf8facef14423a4",
+  "sha256_fingerprint": "ca0b1554ecd901ea19dcad8749e9f2648c8d6dfcea1add9d2c2109415bb82ccd",
+  "ski_hex": "ef6f534ae9e4067c7acae29056f62fd449eccb4e",
+  "subject_der_sha256": "b98f7ad614bcbb12d3f828cead63975906782470985b7cf42a6590feffb05c46",
+  "subject_issuer_text": "subject=CN=DigiCert Trusted G4 TimeStamping RSA4096 SHA256 2025 CA1,O=DigiCert\\, Inc.,C=US\nissuer=CN=DigiCert Trusted Root G4,OU=www.digicert.com,O=DigiCert Inc,C=US",
+  "version": 3
+}
