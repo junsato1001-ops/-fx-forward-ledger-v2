@@ -1,0 +1,36 @@
+{
+  "attempt": 1,
+  "body_length": 6008,
+  "body_sha256": "81cb343df1d2720dbd111c50d0635042d2eac86695efda41065a20803f4acdc5",
+  "error": null,
+  "headers": [
+    [
+      "Content-Type",
+      "application/timestamp-reply"
+    ],
+    [
+      "Content-Length",
+      "6008"
+    ],
+    [
+      "Date",
+      "Thu, 29 Oct 2026 02:47:54 GMT"
+    ],
+    [
+      "Connection",
+      "close"
+    ]
+  ],
+  "imprint_hex": "e25078a2469bd521c71831c25a20b9612f402fe9bb4e984f0b8e6ccca5e7e172",
+  "label": "p3_tok",
+  "method": "POST",
+  "nonce": "10242298495470825774",
+  "outcome": "ok",
+  "recv_at": "2026-10-29T02:47:55.034412Z",
+  "rtt_seconds": "0.146048",
+  "send_at": "2026-10-29T02:47:54.888364Z",
+  "seqno": 1,
+  "status": 200,
+  "tsq_sha256": "786e645e87b00bd28884b6141369ae1a558c951a32127de4e33d116d2a25bdb1",
+  "url": "http://timestamp.digicert.com"
+}

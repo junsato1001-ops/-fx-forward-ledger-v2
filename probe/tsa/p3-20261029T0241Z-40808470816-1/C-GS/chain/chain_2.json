@@ -1,0 +1,27 @@
+{
+  "ca_issuers_urls": [
+    "http://secure.globalsign.com/cacert/root-r6.crt"
+  ],
+  "crl_urls": [
+    "http://crl.globalsign.com/root-r6.crl"
+  ],
+  "eku": [
+    "1.3.6.1.5.5.7.3.8"
+  ],
+  "eku_critical": false,
+  "issuer_der_sha256": "21836f12ce7969ffec2dd17c6f1d6d09e7a95cf251f2c71b47808066363c970b",
+  "not_after": "341210000000Z",
+  "not_before": "201209000000Z",
+  "ocsp_urls": [
+    "http://ocsp2.globalsign.com/rootr6"
+  ],
+  "self_issued": false,
+  "serial": "159895047727501893026269986998037507008",
+  "serial_hex": "784aaa8173669c900954e421c947ebc0",
+  "sha1_fingerprint": "affba470e76a64452b5549039f6e40f592dd1e98",
+  "sha256_fingerprint": "6afbc07c724c6f75c7743392f32bf5780bd5dd39268544d4882e7aec1add0282",
+  "ski_hex": "46b21c77e17b15f0a539a170ded1c42eea6db2de",
+  "subject_der_sha256": "79ddfc8f402bb4f27be533b1b213460ceb1ca953db9fdd1b6ad2d408b1ec2930",
+  "subject_issuer_text": "subject=CN=GlobalSign Timestamping Root R45,O=GlobalSign nv-sa,C=BE\nissuer=CN=GlobalSign,O=GlobalSign,OU=GlobalSign Root CA - R6",
+  "version": 3
+}
