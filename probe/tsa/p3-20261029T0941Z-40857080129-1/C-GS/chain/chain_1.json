@@ -1,0 +1,27 @@
+{
+  "ca_issuers_urls": [
+    "http://secure.globalsign.com/cacert/timestamprootr45.crt"
+  ],
+  "crl_urls": [
+    "http://crl.globalsign.com/timestamprootr45.crl"
+  ],
+  "eku": [
+    "1.3.6.1.5.5.7.3.8"
+  ],
+  "eku_critical": false,
+  "issuer_der_sha256": "79ddfc8f402bb4f27be533b1b213460ceb1ca953db9fdd1b6ad2d408b1ec2930",
+  "not_after": "410716000000Z",
+  "not_before": "250716030504Z",
+  "ocsp_urls": [
+    "http://ocsp.globalsign.com/timestamprootr45"
+  ],
+  "self_issued": false,
+  "serial": "175263510420248434488693120685948696607",
+  "serial_hex": "83da8637b79f0c840c947b840a52781f",
+  "sha1_fingerprint": "3af6cf0a9ac921545092785abce9e715fb53a248",
+  "sha256_fingerprint": "52373a21b95b5e6de12a2bcf0ffb7d6a633b4caad725f64f6236fbe989dbc29e",
+  "ski_hex": "77023b01310f1e7477c348c8c307635588a53ba2",
+  "subject_der_sha256": "d21c0c76422cb780302d0719ade25e2a82f0da4827dcc00332e18bf83485bff6",
+  "subject_issuer_text": "subject=CN=GlobalSign Offline R45 Timestamping CA 2025,O=GlobalSign nv-sa,C=BE\nissuer=CN=GlobalSign Timestamping Root R45,O=GlobalSign nv-sa,C=BE",
+  "version": 3
+}
