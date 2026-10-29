@@ -1,0 +1,66 @@
+{
+  "attempt": 1,
+  "body_length": 1713,
+  "body_sha256": "fec74bdf16188aecfeb094bd492ae3862480067c2fce82ee108ea9143267e762",
+  "error": null,
+  "headers": [
+    [
+      "Date",
+      "Thu, 29 Oct 2026 21:58:15 GMT"
+    ],
+    [
+      "Content-Type",
+      "application/ocsp-response"
+    ],
+    [
+      "Content-Length",
+      "1713"
+    ],
+    [
+      "Connection",
+      "close"
+    ],
+    [
+      "Server",
+      "cloudflare"
+    ],
+    [
+      "Expires",
+      "Mon, 02 Nov 2026 20:03:52 GMT"
+    ],
+    [
+      "ETag",
+      "\"380d88aec90fb125addf6919a7ccf778f6c32435\""
+    ],
+    [
+      "Last-Modified",
+      "Thu, 29 Oct 2026 20:03:53 GMT"
+    ],
+    [
+      "Cache-Control",
+      "public, no-transform, must-revalidate, s-maxage=3600"
+    ],
+    [
+      "Age",
+      "2197"
+    ],
+    [
+      "Accept-Ranges",
+      "bytes"
+    ],
+    [
+      "cf-cache-status",
+      "HIT"
+    ],
+    [
+      "CF-RAY",
+      "a52570cbc9a28e82-IAD"
+    ]
+  ],
+  "method": "POST",
+  "recv_at": "2026-10-29T21:58:15.659744Z",
+  "rtt_seconds": "0.019339",
+  "send_at": "2026-10-29T21:58:15.640405Z",
+  "status": 200,
+  "url": "http://ocsp.globalsign.com/timestamprootr45"
+}

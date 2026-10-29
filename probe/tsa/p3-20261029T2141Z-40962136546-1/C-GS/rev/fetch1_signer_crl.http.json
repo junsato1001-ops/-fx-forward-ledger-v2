@@ -1,0 +1,66 @@
+{
+  "attempt": 1,
+  "body_length": 732,
+  "body_sha256": "c858579bb6fcab679b5689f813bdcc3a484cf099b17eec2c004f91c2f91b41d4",
+  "error": null,
+  "headers": [
+    [
+      "Date",
+      "Thu, 29 Oct 2026 21:58:15 GMT"
+    ],
+    [
+      "Content-Type",
+      "application/pkix-crl"
+    ],
+    [
+      "Content-Length",
+      "732"
+    ],
+    [
+      "Connection",
+      "close"
+    ],
+    [
+      "Server",
+      "cloudflare"
+    ],
+    [
+      "Last-Modified",
+      "Tue, 07 Jul 2026 00:00:00 GMT"
+    ],
+    [
+      "etag",
+      "03"
+    ],
+    [
+      "Accept-Ranges",
+      "bytes"
+    ],
+    [
+      "expires",
+      "Fri, 15 Jan 2027 00:00:00 GMT"
+    ],
+    [
+      "cache-control",
+      "public, no-transform, must-revalidate, s-maxage=3600"
+    ],
+    [
+      "Age",
+      "1284"
+    ],
+    [
+      "cf-cache-status",
+      "HIT"
+    ],
+    [
+      "CF-RAY",
+      "a52570cb8e3c8021-IAD"
+    ]
+  ],
+  "method": "GET",
+  "recv_at": "2026-10-29T21:58:15.614622Z",
+  "rtt_seconds": "0.017845",
+  "send_at": "2026-10-29T21:58:15.596777Z",
+  "status": 200,
+  "url": "http://crl.globalsign.com/gsoffliner45timestampca2025.crl"
+}
