@@ -1,0 +1,27 @@
+{
+  "ca_issuers_urls": [
+    "http://cacerts.digicert.com/DigiCertTrustedG4TimeStampingRSA4096SHA2562025CA1.crt"
+  ],
+  "crl_urls": [
+    "http://crl3.digicert.com/DigiCertTrustedG4TimeStampingRSA4096SHA2562025CA1.crl"
+  ],
+  "eku": [
+    "1.3.6.1.5.5.7.3.8"
+  ],
+  "eku_critical": true,
+  "issuer_der_sha256": "b98f7ad614bcbb12d3f828cead63975906782470985b7cf42a6590feffb05c46",
+  "not_after": "371104235959Z",
+  "not_before": "260805000000Z",
+  "ocsp_urls": [
+    "http://ocsp.digicert.com"
+  ],
+  "self_issued": false,
+  "serial": "11048481613454637687985428644217624629",
+  "serial_hex": "84fdc334f7e454edbc30f8ff9921835",
+  "sha1_fingerprint": "51d9abda034973d84f4266aca48248e6b369c439",
+  "sha256_fingerprint": "2da09da7f4131f9fe72db6c5e6e9c9656755af043f1ea742cc0d2120e141ebfc",
+  "ski_hex": "14c9638a302ed44afb6e94f3e6e3407ef5eccde2",
+  "subject_der_sha256": "632beebe2d2823d037aa918265f802e7cc0c954a1b858f8ed4d31c6ac684e550",
+  "subject_issuer_text": "subject=CN=DigiCert SHA256 RSA4096 Timestamp Responder 2026 1,O=DigiCert\\, Inc.,C=US\nissuer=CN=DigiCert Trusted G4 TimeStamping RSA4096 SHA256 2025 CA1,O=DigiCert\\, Inc.,C=US",
+  "version": 3
+}

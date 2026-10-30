@@ -1,0 +1,96 @@
+{
+  "events": [
+    {
+      "at": "2026-10-30T21:00:43.432616Z",
+      "attempt": 1,
+      "http_status": 200,
+      "kind": "tsa_request",
+      "label": "p3_tok",
+      "outcome": "ok",
+      "rtt_seconds": "0.433212",
+      "station": "C-GS"
+    },
+    {
+      "at": "2026-10-30T21:00:43.848689Z",
+      "available": true,
+      "http_status": 200,
+      "kind": "revocation_fetch",
+      "role": "signer",
+      "station": "C-GS",
+      "tag": "fetch1",
+      "type": "ocsp"
+    },
+    {
+      "at": "2026-10-30T21:00:43.848705Z",
+      "available": true,
+      "http_status": 200,
+      "kind": "revocation_fetch",
+      "role": "signer",
+      "station": "C-GS",
+      "tag": "fetch1",
+      "type": "crl"
+    },
+    {
+      "at": "2026-10-30T21:00:43.848711Z",
+      "available": true,
+      "http_status": 200,
+      "kind": "revocation_fetch",
+      "role": "intermediate",
+      "station": "C-GS",
+      "tag": "fetch1",
+      "type": "ocsp"
+    },
+    {
+      "at": "2026-10-30T21:00:43.848715Z",
+      "available": true,
+      "http_status": 200,
+      "kind": "revocation_fetch",
+      "role": "intermediate",
+      "station": "C-GS",
+      "tag": "fetch1",
+      "type": "crl"
+    },
+    {
+      "at": "2026-10-30T21:15:44.272989Z",
+      "available": true,
+      "http_status": 200,
+      "kind": "revocation_fetch",
+      "role": "signer",
+      "station": "C-GS",
+      "tag": "fetch2",
+      "type": "ocsp"
+    },
+    {
+      "at": "2026-10-30T21:15:44.272996Z",
+      "available": true,
+      "http_status": 200,
+      "kind": "revocation_fetch",
+      "role": "signer",
+      "station": "C-GS",
+      "tag": "fetch2",
+      "type": "crl"
+    },
+    {
+      "at": "2026-10-30T21:15:44.272999Z",
+      "available": true,
+      "http_status": 200,
+      "kind": "revocation_fetch",
+      "role": "intermediate",
+      "station": "C-GS",
+      "tag": "fetch2",
+      "type": "ocsp"
+    },
+    {
+      "at": "2026-10-30T21:15:44.273002Z",
+      "available": true,
+      "http_status": 200,
+      "kind": "revocation_fetch",
+      "role": "intermediate",
+      "station": "C-GS",
+      "tag": "fetch2",
+      "type": "crl"
+    }
+  ],
+  "stopped": null,
+  "tsa_requests": 1
+}

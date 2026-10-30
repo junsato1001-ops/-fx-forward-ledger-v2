@@ -1,0 +1,44 @@
+{
+  "attempt": 1,
+  "body_length": 7660,
+  "body_sha256": "72bc5951dd34c49077b0876dd8a5059b7ecf048ec203506224ff6c8468ccbecf",
+  "error": null,
+  "headers": [
+    [
+      "Server",
+      "nginx"
+    ],
+    [
+      "Date",
+      "Fri, 30 Oct 2026 21:00:43 GMT"
+    ],
+    [
+      "Content-Type",
+      "application/timestamp-reply"
+    ],
+    [
+      "Content-Length",
+      "7660"
+    ],
+    [
+      "Connection",
+      "close"
+    ],
+    [
+      "X-FRAME-OPTIONS",
+      "DENY"
+    ]
+  ],
+  "imprint_hex": "a5e6424a61851cb9be7d287a97484832eac6e9147bab416aa3f3ab0df63cb7bd",
+  "label": "p3_tok",
+  "method": "POST",
+  "nonce": "5504787824012934555",
+  "outcome": "ok",
+  "recv_at": "2026-10-30T21:00:43.428093Z",
+  "rtt_seconds": "0.433212",
+  "send_at": "2026-10-30T21:00:42.994881Z",
+  "seqno": 1,
+  "status": 200,
+  "tsq_sha256": "384f5f8d2f24387cbbfe07ffbdec76624b0fcc24b975f4771f983526cc527f7f",
+  "url": "http://timestamp.globalsign.com/tsa/r6advanced1"
+}

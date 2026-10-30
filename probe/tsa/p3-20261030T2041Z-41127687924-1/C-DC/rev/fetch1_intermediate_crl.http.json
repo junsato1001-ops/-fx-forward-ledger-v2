@@ -1,0 +1,50 @@
+{
+  "attempt": 1,
+  "body_length": 737,
+  "body_sha256": "c5ca269ed37c73d656d8df9c9bcb3b32da85beef4b862395a60596d4ddbaee1f",
+  "error": null,
+  "headers": [
+    [
+      "Content-Type",
+      "application/pkix-crl"
+    ],
+    [
+      "Content-Length",
+      "737"
+    ],
+    [
+      "Last-Modified",
+      "Fri, 30 Oct 2026 18:53:54 GMT"
+    ],
+    [
+      "ETag",
+      "\"6ae4e7c2-2e1\""
+    ],
+    [
+      "Accept-Ranges",
+      "bytes"
+    ],
+    [
+      "Cache-Control",
+      "public, max-age=583"
+    ],
+    [
+      "Date",
+      "Fri, 30 Oct 2026 21:00:42 GMT"
+    ],
+    [
+      "Connection",
+      "close"
+    ],
+    [
+      "X-N",
+      "S"
+    ]
+  ],
+  "method": "GET",
+  "recv_at": "2026-10-30T21:00:42.994073Z",
+  "rtt_seconds": "0.055989",
+  "send_at": "2026-10-30T21:00:42.938084Z",
+  "status": 200,
+  "url": "http://crl3.digicert.com/DigiCertTrustedRootG4.crl"
+}

@@ -1,0 +1,19 @@
+{
+  "ca_issuers_urls": [],
+  "crl_urls": [],
+  "eku": null,
+  "eku_critical": null,
+  "issuer_der_sha256": "21836f12ce7969ffec2dd17c6f1d6d09e7a95cf251f2c71b47808066363c970b",
+  "not_after": "341210000000Z",
+  "not_before": "141210000000Z",
+  "ocsp_urls": [],
+  "self_issued": true,
+  "serial": "1417766617973444989252670301619537",
+  "serial_hex": "45e6bb038333c3856548e6ff4551",
+  "sha1_fingerprint": "8094640eb5a7a1ca119c1fddd59f810263a7fbd1",
+  "sha256_fingerprint": "2cabeafe37d06ca22aba7391c0033d25982952c453647349763a3ab5ad6ccf69",
+  "ski_hex": "ae6c05a39313e2a2e7e2d71cd6c7f07fc86753a0",
+  "subject_der_sha256": "21836f12ce7969ffec2dd17c6f1d6d09e7a95cf251f2c71b47808066363c970b",
+  "subject_issuer_text": "subject=CN=GlobalSign,O=GlobalSign,OU=GlobalSign Root CA - R6\nissuer=CN=GlobalSign,O=GlobalSign,OU=GlobalSign Root CA - R6",
+  "version": 3
+}

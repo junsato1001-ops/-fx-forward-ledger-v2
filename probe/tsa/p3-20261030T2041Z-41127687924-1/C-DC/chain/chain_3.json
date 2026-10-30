@@ -1,0 +1,19 @@
+{
+  "ca_issuers_urls": [],
+  "crl_urls": [],
+  "eku": null,
+  "eku_critical": null,
+  "issuer_der_sha256": "ca022c70a9410a6af9e797acde44619a47b3aa2f308dd95262ff5020ad62426d",
+  "not_after": "311110000000Z",
+  "not_before": "061110000000Z",
+  "ocsp_urls": [],
+  "self_issued": true,
+  "serial": "17154717934120587862167794914071425081",
+  "serial_hex": "ce7e0e517d846fe8fe560fc1bf03039",
+  "sha1_fingerprint": "0563b8630d62d75abbc8ab1e4bdfb5a899b24d43",
+  "sha256_fingerprint": "3e9099b5015e8f486c00bcea9d111ee721faba355a89bcf1df69561e3dc6325c",
+  "ski_hex": "45eba2aff492cb82312d518ba7a7219df36dc80f",
+  "subject_der_sha256": "ca022c70a9410a6af9e797acde44619a47b3aa2f308dd95262ff5020ad62426d",
+  "subject_issuer_text": "subject=CN=DigiCert Assured ID Root CA,OU=www.digicert.com,O=DigiCert Inc,C=US\nissuer=CN=DigiCert Assured ID Root CA,OU=www.digicert.com,O=DigiCert Inc,C=US",
+  "version": 3
+}
