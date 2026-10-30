@@ -1,0 +1,22 @@
+Status info:
+Status: Granted.
+Status description: unspecified
+Failure info: unspecified
+
+TST info:
+Version: 1
+Policy OID: 1.3.6.1.4.1.4146.2.3.2.2
+Hash Algorithm: sha256
+Message data:
+    0000 - d0 12 54 b4 b1 6e 61 30-37 64 d7 c0 70 48 b3 4d   ..T..na07d..pH.M
+    0010 - f7 e8 f2 5c 14 1d dc 06-c6 8a 02 3b 72 80 f5 3c   ...\.......;r..<
+Serial number: 0x0A5409638AEE88504162623637E2282E42BE6B67
+Time stamp: Oct 30 02:07:26 2026 GMT
+Accuracy: 0x01 seconds, unspecified millis, unspecified micros
+Ordering: no
+Nonce: 0x8B7554B1A1B49392
+TSA: DirName:/C=BE/O=GlobalSign nv-sa/CN=Globalsign R45 TSA for CodeSign 202510
+Extensions:
+
+[stderr]
+Using configuration from /usr/lib/ssl/openssl.cnf
