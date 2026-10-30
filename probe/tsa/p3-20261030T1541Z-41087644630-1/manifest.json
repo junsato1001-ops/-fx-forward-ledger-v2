@@ -1,0 +1,322 @@
+{
+  "classification": "PROBE / NON-FORMAL / PRE-SELECTION",
+  "config_sha256": "fd794108483a1cda36bd0a6ef4b4a712b0912e67ac378661c9a32d8eca8c0c1b",
+  "files": [
+    {
+      "path": "C-DC/chain/aia_9790ac1042fc.bin",
+      "sha256": "3e9099b5015e8f486c00bcea9d111ee721faba355a89bcf1df69561e3dc6325c"
+    },
+    {
+      "path": "C-DC/chain/aia_9790ac1042fc.http.json",
+      "sha256": "1319e02f0c3425dbd37955945d23bbfe4af02273c1fd75b107201da5978a794c"
+    },
+    {
+      "path": "C-DC/chain/chain_0.der",
+      "sha256": "2da09da7f4131f9fe72db6c5e6e9c9656755af043f1ea742cc0d2120e141ebfc"
+    },
+    {
+      "path": "C-DC/chain/chain_0.json",
+      "sha256": "4aa9c140953cd1eb506d77730719b0c87d5b9192ab8756f5c3f8c63f702a95d5"
+    },
+    {
+      "path": "C-DC/chain/chain_1.der",
+      "sha256": "ca0b1554ecd901ea19dcad8749e9f2648c8d6dfcea1add9d2c2109415bb82ccd"
+    },
+    {
+      "path": "C-DC/chain/chain_1.json",
+      "sha256": "64c79b69b49a5506bf360b6e0ffe9f842181f924ffde6204c9563f2d1ab02300"
+    },
+    {
+      "path": "C-DC/chain/chain_2.der",
+      "sha256": "33846b545a49c9be4903c60e01713c1bd4e4ef31ea65cd95d69e62794f30b941"
+    },
+    {
+      "path": "C-DC/chain/chain_2.json",
+      "sha256": "956e2a234dd0f1e6aaa2862879feb82c86a45f599ec12f5a9a281b79d82a43e4"
+    },
+    {
+      "path": "C-DC/chain/chain_3.der",
+      "sha256": "3e9099b5015e8f486c00bcea9d111ee721faba355a89bcf1df69561e3dc6325c"
+    },
+    {
+      "path": "C-DC/chain/chain_3.json",
+      "sha256": "74fa8f1302071a570481a7b2e0130b64f8fe44e27ae6745358b02c22972ddba7"
+    },
+    {
+      "path": "C-DC/p3_tok_1.http.json",
+      "sha256": "c7f213d1537bbb021ffac05c1ebdf1bfc8e33a76c7311ea35914c057616b2c86"
+    },
+    {
+      "path": "C-DC/p3_tok_1.tsq",
+      "sha256": "6c0e233454ffdde329aeaab33e10980a5182b4f0d79b982fd31d70569ab0c3ac"
+    },
+    {
+      "path": "C-DC/p3_tok_1.tsr",
+      "sha256": "74030c25c7e88c564adc752797796f6aebe7eacefcd5aa3062c451a3e1d45f50"
+    },
+    {
+      "path": "C-DC/p3_tok_1.tsr.txt",
+      "sha256": "7a9d9f35c38baa3f12bb74334213f3e78d5e14fe70878608ff3613254c8d27f7"
+    },
+    {
+      "path": "C-DC/rev/fetch1_intermediate_crl.der",
+      "sha256": "6ff15ee77a39a53ef170aab621b41f681697ebce70b5e558d081a47d72c164de"
+    },
+    {
+      "path": "C-DC/rev/fetch1_intermediate_crl.http.json",
+      "sha256": "2b0212551f7de4294f6791af34e284e973386e95553bf3408ab0a8ecbc7c103e"
+    },
+    {
+      "path": "C-DC/rev/fetch1_intermediate_ocsp.der",
+      "sha256": "f212a15599da919a16d7f41bce2921ea4926a0600a1ff26c702d9da32c1dafa2"
+    },
+    {
+      "path": "C-DC/rev/fetch1_intermediate_ocsp.http.json",
+      "sha256": "c12b03d5887e0e612e64ec1470d1a684f1f9591cbd3f172db2384b1757c4b8f2"
+    },
+    {
+      "path": "C-DC/rev/fetch1_intermediate_ocsp.req.der",
+      "sha256": "58f237e15e56b5cf12d00be9e1c527a80d3b981e6dce4f0d742efd9de8c5be67"
+    },
+    {
+      "path": "C-DC/rev/fetch1_signer_crl.der",
+      "sha256": "7e4f7039b7df439e74c0e7f88367ba8d5d457b74588abd6a74474384000b3374"
+    },
+    {
+      "path": "C-DC/rev/fetch1_signer_crl.http.json",
+      "sha256": "5b003bce956477260cf165a7da028edd8e1cc088efc7f9ea10912493c31904f0"
+    },
+    {
+      "path": "C-DC/rev/fetch1_signer_ocsp.der",
+      "sha256": "c60e683140eb360ebf0607e8772777d0748e4ba4a636a921b1384fcc8e9b2e6a"
+    },
+    {
+      "path": "C-DC/rev/fetch1_signer_ocsp.http.json",
+      "sha256": "dc2b6076737afcaeabcc856af90e422bfbb05bf4afef87a07257bc8f32df1622"
+    },
+    {
+      "path": "C-DC/rev/fetch1_signer_ocsp.req.der",
+      "sha256": "73450bf808043b72fe60a4c30b3ab69aece0dfab6fb3707bf769b2146127fd62"
+    },
+    {
+      "path": "C-DC/rev/fetch2_intermediate_crl.der",
+      "sha256": "6ff15ee77a39a53ef170aab621b41f681697ebce70b5e558d081a47d72c164de"
+    },
+    {
+      "path": "C-DC/rev/fetch2_intermediate_crl.http.json",
+      "sha256": "7cdd29a95de395453c0c2dae5cbb9c5ee2c3cf705a78e11e242a282a1b866f21"
+    },
+    {
+      "path": "C-DC/rev/fetch2_intermediate_ocsp.der",
+      "sha256": "f212a15599da919a16d7f41bce2921ea4926a0600a1ff26c702d9da32c1dafa2"
+    },
+    {
+      "path": "C-DC/rev/fetch2_intermediate_ocsp.http.json",
+      "sha256": "03c38c92d21c3b9aa5b99708680b7e66e5036568ab9c8ed718c8918b27897f81"
+    },
+    {
+      "path": "C-DC/rev/fetch2_intermediate_ocsp.req.der",
+      "sha256": "58f237e15e56b5cf12d00be9e1c527a80d3b981e6dce4f0d742efd9de8c5be67"
+    },
+    {
+      "path": "C-DC/rev/fetch2_signer_crl.der",
+      "sha256": "7e4f7039b7df439e74c0e7f88367ba8d5d457b74588abd6a74474384000b3374"
+    },
+    {
+      "path": "C-DC/rev/fetch2_signer_crl.http.json",
+      "sha256": "a8712b115f1770e44c4e063dc07951e87259175ddbefc1cfb5eac038c436ac04"
+    },
+    {
+      "path": "C-DC/rev/fetch2_signer_ocsp.der",
+      "sha256": "c60e683140eb360ebf0607e8772777d0748e4ba4a636a921b1384fcc8e9b2e6a"
+    },
+    {
+      "path": "C-DC/rev/fetch2_signer_ocsp.http.json",
+      "sha256": "e663ad33a0b4b8647d27a5afc493361111e33362fe99928d8c8d709a35a75470"
+    },
+    {
+      "path": "C-DC/rev/fetch2_signer_ocsp.req.der",
+      "sha256": "73450bf808043b72fe60a4c30b3ab69aece0dfab6fb3707bf769b2146127fd62"
+    },
+    {
+      "path": "C-DC/rev/p3_revocation.json",
+      "sha256": "71d845e903ed931d7108621b6f69199ae9c603d17015ec94056144056f2031eb"
+    },
+    {
+      "path": "C-DC/station_log.json",
+      "sha256": "55bde0798a6c369f26e98ed56286ed2026f317e02268161421f944fd8a223a9f"
+    },
+    {
+      "path": "C-GS/chain/chain_0.der",
+      "sha256": "832ad72e523fdeac83fa4694bce7c6cc261764882866566588c8adca3a838551"
+    },
+    {
+      "path": "C-GS/chain/chain_0.json",
+      "sha256": "253057805dd0f27305610c616fcde8972f26d87e5c486939bfd01f4abd486cac"
+    },
+    {
+      "path": "C-GS/chain/chain_1.der",
+      "sha256": "52373a21b95b5e6de12a2bcf0ffb7d6a633b4caad725f64f6236fbe989dbc29e"
+    },
+    {
+      "path": "C-GS/chain/chain_1.json",
+      "sha256": "b47a53af2205966e59e4bbb35053fb975895c563c8312770c757bae639116a8d"
+    },
+    {
+      "path": "C-GS/chain/chain_2.der",
+      "sha256": "6afbc07c724c6f75c7743392f32bf5780bd5dd39268544d4882e7aec1add0282"
+    },
+    {
+      "path": "C-GS/chain/chain_2.json",
+      "sha256": "3e32dc7a02ac412ecf02b58af3401ee9c094b584c19d5aae037e100f12039cf7"
+    },
+    {
+      "path": "C-GS/chain/chain_3.der",
+      "sha256": "2cabeafe37d06ca22aba7391c0033d25982952c453647349763a3ab5ad6ccf69"
+    },
+    {
+      "path": "C-GS/chain/chain_3.json",
+      "sha256": "cca424b193afadb11af1640a7ce9ac84677b873b8ad1b75691bfc0ab681d9dd6"
+    },
+    {
+      "path": "C-GS/p3_tok_1.http.json",
+      "sha256": "d68125665b0474a34a125b92562c3c128c0a4613122df8ae53c2ba7fabf4a69e"
+    },
+    {
+      "path": "C-GS/p3_tok_1.tsq",
+      "sha256": "41aca640df3235613c3380fe8dd0edf9cd8d25b4c92ae2864e9518716879e662"
+    },
+    {
+      "path": "C-GS/p3_tok_1.tsr",
+      "sha256": "df38522711422d91879e1da3c6638d246d0fe4ea3baca40abf2c8aa345762620"
+    },
+    {
+      "path": "C-GS/p3_tok_1.tsr.txt",
+      "sha256": "2a7658cc04c9a9750961f6c4e4772f06f9ffdc940956906c31e0318eeb3e459d"
+    },
+    {
+      "path": "C-GS/rev/fetch1_intermediate_crl.der",
+      "sha256": "ef869dbaebca2f6dead5abb91f22f766489616b0535c656aa4fcaada0f6f2b63"
+    },
+    {
+      "path": "C-GS/rev/fetch1_intermediate_crl.http.json",
+      "sha256": "8580726a522904c4d509d2da89b2a5ad04a9adf8c611b2c8a1341b689d6283be"
+    },
+    {
+      "path": "C-GS/rev/fetch1_intermediate_ocsp.der",
+      "sha256": "7f638ab2755d457d644c00c60e1aa4a3c9ce2eea4eaedc882269dba22e61e1b6"
+    },
+    {
+      "path": "C-GS/rev/fetch1_intermediate_ocsp.http.json",
+      "sha256": "544f997c3968329738467508eab084300f2a22565808713338a5e9e8c15e3ecd"
+    },
+    {
+      "path": "C-GS/rev/fetch1_intermediate_ocsp.req.der",
+      "sha256": "6a47cd1f3948756e9e0df7f275df24e3a6eefb67552e3db8688e7046c681e870"
+    },
+    {
+      "path": "C-GS/rev/fetch1_signer_crl.der",
+      "sha256": "c858579bb6fcab679b5689f813bdcc3a484cf099b17eec2c004f91c2f91b41d4"
+    },
+    {
+      "path": "C-GS/rev/fetch1_signer_crl.http.json",
+      "sha256": "6a8eae84e404b51216980720020bb3ad2e95ac29be315be1f7e0ec0e7e9d3bfa"
+    },
+    {
+      "path": "C-GS/rev/fetch1_signer_ocsp.der",
+      "sha256": "13980022f37ea945e6689a22ba79b84009f2884795475bbf0c0244523905b4c0"
+    },
+    {
+      "path": "C-GS/rev/fetch1_signer_ocsp.http.json",
+      "sha256": "f9ef094b9e620bb4b2fe7e30f7113e61eb7541e95379c9a08116f5beb7ffe958"
+    },
+    {
+      "path": "C-GS/rev/fetch1_signer_ocsp.req.der",
+      "sha256": "d6864d4f0782b8a2d628636ee5346bbc04498478bea773b80f7b3f194752d97a"
+    },
+    {
+      "path": "C-GS/rev/fetch2_intermediate_crl.der",
+      "sha256": "ef869dbaebca2f6dead5abb91f22f766489616b0535c656aa4fcaada0f6f2b63"
+    },
+    {
+      "path": "C-GS/rev/fetch2_intermediate_crl.http.json",
+      "sha256": "34d0d5888e0e4d372d71b65581e016e110c27854e5d2b38c9b93c7294323eda4"
+    },
+    {
+      "path": "C-GS/rev/fetch2_intermediate_ocsp.der",
+      "sha256": "048dba12628f249315a3e1df507cc525311d248a0d569e70896372e1672ed1c2"
+    },
+    {
+      "path": "C-GS/rev/fetch2_intermediate_ocsp.http.json",
+      "sha256": "47a18cd960fb8aecce823c90b088af90337cc98eba44e87721c290eaeabe7182"
+    },
+    {
+      "path": "C-GS/rev/fetch2_intermediate_ocsp.req.der",
+      "sha256": "6a47cd1f3948756e9e0df7f275df24e3a6eefb67552e3db8688e7046c681e870"
+    },
+    {
+      "path": "C-GS/rev/fetch2_signer_crl.der",
+      "sha256": "c858579bb6fcab679b5689f813bdcc3a484cf099b17eec2c004f91c2f91b41d4"
+    },
+    {
+      "path": "C-GS/rev/fetch2_signer_crl.http.json",
+      "sha256": "c483aefa6372dd8dafd2f710acbde34669117576f12f0ee0c32e3b60cb4178df"
+    },
+    {
+      "path": "C-GS/rev/fetch2_signer_ocsp.der",
+      "sha256": "a6d3a6a03b1a11ab9c9bffb2a29aac7c2291c284b43ff7407b99883da253ff25"
+    },
+    {
+      "path": "C-GS/rev/fetch2_signer_ocsp.http.json",
+      "sha256": "7143b8e6e4978626e864510d950037807596e6cdab35bbe27d91a2e2405fdb82"
+    },
+    {
+      "path": "C-GS/rev/fetch2_signer_ocsp.req.der",
+      "sha256": "d6864d4f0782b8a2d628636ee5346bbc04498478bea773b80f7b3f194752d97a"
+    },
+    {
+      "path": "C-GS/rev/p3_revocation.json",
+      "sha256": "fb2f89e296e28ea4c2d7f2729d1d3c14cd4891318aeb1597d10f0cde1c9444a6"
+    },
+    {
+      "path": "C-GS/station_log.json",
+      "sha256": "1ecfaaa35c37205b52f9313f271cf3c38288fdb8e5bdf0bc79aa803c43a8c1d5"
+    }
+  ],
+  "finished_at": "2026-10-30T16:26:58.076168Z",
+  "github": {
+    "GITHUB_EVENT_NAME": "schedule",
+    "GITHUB_REPOSITORY": "junsato1001-ops/-fx-forward-ledger-v2",
+    "GITHUB_RUN_ATTEMPT": "1",
+    "GITHUB_RUN_ID": "41087644630",
+    "GITHUB_SHA": "00f812c97189cccf63e40a3f6343e4d8293abfdf"
+  },
+  "launch_kind": "schedule",
+  "mode": "p3",
+  "probe_run_id": "p3-20261030T1541Z-41087644630-1",
+  "scheduled_time_utc": "2026-10-30T15:41:00Z",
+  "schema_version": "TSA_PROBE_RUN_V1",
+  "script_sha256": "f15735c2370539b54809cfb60737d43a56ec1970e3cc8dde1f8a34c458b0b6c5",
+  "slot_index": 39,
+  "spec_id": "M1-MACRO-PIPELINE-V2-TSA-PROBE-SPEC-V0.1",
+  "spec_sha256": "a3e4e44735a4fb0f45dd67b487236801b7d627e1b20e38f6cb6689c75ad60582",
+  "started_at": "2026-10-30T16:11:56.307397Z",
+  "stations": [
+    {
+      "id": "C-DC",
+      "url": "http://timestamp.digicert.com"
+    },
+    {
+      "id": "C-GS",
+      "url": "http://timestamp.globalsign.com/tsa/r6advanced1"
+    }
+  ],
+  "tools": {
+    "image_os": "ubuntu24",
+    "image_version": "20261026.354.1",
+    "openssl": "OpenSSL 3.0.13 30 Jan 2024 (Library: OpenSSL 3.0.13 30 Jan 2024)\nbuilt on: Wed Sep 16 18:47:02 2026 UTC\nplatform: debian-amd64\noptions:  bn(64,64)\ncompiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-yMWwKu/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-yMWwKu/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.16 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3\nOPENSSLDIR: \"/usr/lib/ssl\"\nENGINESDIR: \"/usr/lib/x86_64-linux-gnu/engines-3\"\nMODULESDIR: \"/usr/lib/x86_64-linux-gnu/ossl-modules\"\nSeeding source: os-specific\nCPUINFO: OPENSSL_ia32cap=0xfeda3203078bffff:0x400684219c07a9",
+    "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+    "runner_arch": "X64",
+    "runner_os": "Linux"
+  }
+}
