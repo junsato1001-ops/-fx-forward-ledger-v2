@@ -1,0 +1,78 @@
+{
+  "attempt": 1,
+  "body_length": 1713,
+  "body_sha256": "ca305b643b159ccf0266b1d6996a833c8e3543b47fd61e9bd5726e0210f68c1f",
+  "error": null,
+  "headers": [
+    [
+      "Connection",
+      "close"
+    ],
+    [
+      "Content-Length",
+      "1713"
+    ],
+    [
+      "Server",
+      "nginx"
+    ],
+    [
+      "Content-Type",
+      "application/ocsp-response"
+    ],
+    [
+      "Expires",
+      "Tue, 03 Nov 2026 05:52:06 GMT"
+    ],
+    [
+      "ETag",
+      "\"3d1ab85a6fcb864556fb35201b1f0e2f30e003b0\""
+    ],
+    [
+      "Last-Modified",
+      "Fri, 30 Oct 2026 05:52:07 GMT"
+    ],
+    [
+      "Cache-Control",
+      "public, no-transform, must-revalidate, s-maxage=3600"
+    ],
+    [
+      "Via",
+      "1.1 varnish, 1.1 varnish"
+    ],
+    [
+      "Accept-Ranges",
+      "bytes"
+    ],
+    [
+      "Age",
+      "3328"
+    ],
+    [
+      "Date",
+      "Fri, 30 Oct 2026 08:56:50 GMT"
+    ],
+    [
+      "X-Served-By",
+      "cache-sin-wsat1880098-SIN, cache-bfi-krnt7300023-BFI"
+    ],
+    [
+      "X-Cache",
+      "HIT, HIT"
+    ],
+    [
+      "X-Cache-Hits",
+      "404, 0"
+    ],
+    [
+      "X-Timer",
+      "S1793350610.188966,VS0,VE180"
+    ]
+  ],
+  "method": "POST",
+  "recv_at": "2026-10-30T08:56:50.368811Z",
+  "rtt_seconds": "0.190036",
+  "send_at": "2026-10-30T08:56:50.178775Z",
+  "status": 200,
+  "url": "http://ocsp.globalsign.com/timestamprootr45"
+}

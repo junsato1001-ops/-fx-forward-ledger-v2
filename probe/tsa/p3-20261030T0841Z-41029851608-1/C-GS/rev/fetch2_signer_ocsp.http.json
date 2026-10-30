@@ -1,0 +1,66 @@
+{
+  "attempt": 1,
+  "body_length": 1737,
+  "body_sha256": "a0147e13554100f2b24b23699e69f477da4b8e8d748b48d5f419453dba3d461c",
+  "error": null,
+  "headers": [
+    [
+      "Date",
+      "Fri, 30 Oct 2026 09:11:50 GMT"
+    ],
+    [
+      "Content-Type",
+      "application/ocsp-response"
+    ],
+    [
+      "Content-Length",
+      "1737"
+    ],
+    [
+      "Connection",
+      "close"
+    ],
+    [
+      "Server",
+      "cloudflare"
+    ],
+    [
+      "Expires",
+      "Tue, 03 Nov 2026 07:25:20 GMT"
+    ],
+    [
+      "ETag",
+      "\"70a4f2d0ad8e2054fd3fdc66ae73b528f9fefbb7\""
+    ],
+    [
+      "Last-Modified",
+      "Fri, 30 Oct 2026 07:25:21 GMT"
+    ],
+    [
+      "Cache-Control",
+      "public, no-transform, must-revalidate, s-maxage=3600"
+    ],
+    [
+      "Accept-Ranges",
+      "bytes"
+    ],
+    [
+      "Age",
+      "127"
+    ],
+    [
+      "cf-cache-status",
+      "HIT"
+    ],
+    [
+      "CF-RAY",
+      "a5294b7d4ea72801-SEA"
+    ]
+  ],
+  "method": "POST",
+  "recv_at": "2026-10-30T09:11:50.610518Z",
+  "rtt_seconds": "0.019037",
+  "send_at": "2026-10-30T09:11:50.591481Z",
+  "status": 200,
+  "url": "http://ocsp.globalsign.com/gsoffliner45timestampca2025"
+}

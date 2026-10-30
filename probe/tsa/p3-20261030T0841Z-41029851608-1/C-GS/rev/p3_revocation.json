@@ -1,0 +1,170 @@
+{
+  "fetch1": [
+    {
+      "available": true,
+      "base": "fetch1_signer_ocsp",
+      "fetched_at": "2026-10-30T08:56:50.128991Z",
+      "http_status": 200,
+      "kind": "ocsp",
+      "parsed": {
+        "produced_at_raw": "20261030055558Z",
+        "response_status": 0,
+        "response_type": "1.3.6.1.5.5.7.48.1.1",
+        "responses": [
+          {
+            "cert_status": "good",
+            "next_update_raw": "20261103055557Z",
+            "revocation_time_raw": null,
+            "serial": "176051310414682256565311512954554756068",
+            "this_update_raw": "20261030055558Z"
+          }
+        ]
+      },
+      "role": "signer",
+      "url": "http://ocsp.globalsign.com/gsoffliner45timestampca2025"
+    },
+    {
+      "available": true,
+      "base": "fetch1_signer_crl",
+      "fetched_at": "2026-10-30T08:56:50.154435Z",
+      "http_status": 200,
+      "kind": "crl",
+      "parsed": {
+        "crl_number": "3",
+        "issuer_der_sha256": "d21c0c76422cb780302d0719ade25e2a82f0da4827dcc00332e18bf83485bff6",
+        "next_update_raw": "270115000000Z",
+        "revoked_count": 0,
+        "target_listed": null,
+        "target_revocation_date_raw": null,
+        "this_update_raw": "260707000000Z"
+      },
+      "role": "signer",
+      "url": "http://crl.globalsign.com/gsoffliner45timestampca2025.crl"
+    },
+    {
+      "available": true,
+      "base": "fetch1_intermediate_ocsp",
+      "fetched_at": "2026-10-30T08:56:50.368811Z",
+      "http_status": 200,
+      "kind": "ocsp",
+      "parsed": {
+        "produced_at_raw": "20261030055207Z",
+        "response_status": 0,
+        "response_type": "1.3.6.1.5.5.7.48.1.1",
+        "responses": [
+          {
+            "cert_status": "good",
+            "next_update_raw": "20261103055206Z",
+            "revocation_time_raw": null,
+            "serial": "175263510420248434488693120685948696607",
+            "this_update_raw": "20261030055207Z"
+          }
+        ]
+      },
+      "role": "intermediate",
+      "url": "http://ocsp.globalsign.com/timestamprootr45"
+    },
+    {
+      "available": true,
+      "base": "fetch1_intermediate_crl",
+      "fetched_at": "2026-10-30T08:56:50.380398Z",
+      "http_status": 200,
+      "kind": "crl",
+      "parsed": {
+        "crl_number": "29",
+        "issuer_der_sha256": "79ddfc8f402bb4f27be533b1b213460ceb1ca953db9fdd1b6ad2d408b1ec2930",
+        "next_update_raw": "270115000000Z",
+        "revoked_count": 2,
+        "target_listed": false,
+        "target_revocation_date_raw": null,
+        "this_update_raw": "261007000000Z"
+      },
+      "role": "intermediate",
+      "url": "http://crl.globalsign.com/timestamprootr45.crl"
+    }
+  ],
+  "fetch2": [
+    {
+      "available": true,
+      "base": "fetch2_signer_ocsp",
+      "fetched_at": "2026-10-30T09:11:50.610518Z",
+      "http_status": 200,
+      "kind": "ocsp",
+      "parsed": {
+        "produced_at_raw": "20261030072521Z",
+        "response_status": 0,
+        "response_type": "1.3.6.1.5.5.7.48.1.1",
+        "responses": [
+          {
+            "cert_status": "good",
+            "next_update_raw": "20261103072520Z",
+            "revocation_time_raw": null,
+            "serial": "176051310414682256565311512954554756068",
+            "this_update_raw": "20261030072521Z"
+          }
+        ]
+      },
+      "role": "signer",
+      "url": "http://ocsp.globalsign.com/gsoffliner45timestampca2025"
+    },
+    {
+      "available": true,
+      "base": "fetch2_signer_crl",
+      "fetched_at": "2026-10-30T09:11:50.630029Z",
+      "http_status": 200,
+      "kind": "crl",
+      "parsed": {
+        "crl_number": "3",
+        "issuer_der_sha256": "d21c0c76422cb780302d0719ade25e2a82f0da4827dcc00332e18bf83485bff6",
+        "next_update_raw": "270115000000Z",
+        "revoked_count": 0,
+        "target_listed": null,
+        "target_revocation_date_raw": null,
+        "this_update_raw": "260707000000Z"
+      },
+      "role": "signer",
+      "url": "http://crl.globalsign.com/gsoffliner45timestampca2025.crl"
+    },
+    {
+      "available": true,
+      "base": "fetch2_intermediate_ocsp",
+      "fetched_at": "2026-10-30T09:11:50.673693Z",
+      "http_status": 200,
+      "kind": "ocsp",
+      "parsed": {
+        "produced_at_raw": "20261030081005Z",
+        "response_status": 0,
+        "response_type": "1.3.6.1.5.5.7.48.1.1",
+        "responses": [
+          {
+            "cert_status": "good",
+            "next_update_raw": "20261103081004Z",
+            "revocation_time_raw": null,
+            "serial": "175263510420248434488693120685948696607",
+            "this_update_raw": "20261030081005Z"
+          }
+        ]
+      },
+      "role": "intermediate",
+      "url": "http://ocsp.globalsign.com/timestamprootr45"
+    },
+    {
+      "available": true,
+      "base": "fetch2_intermediate_crl",
+      "fetched_at": "2026-10-30T09:11:50.694306Z",
+      "http_status": 200,
+      "kind": "crl",
+      "parsed": {
+        "crl_number": "29",
+        "issuer_der_sha256": "79ddfc8f402bb4f27be533b1b213460ceb1ca953db9fdd1b6ad2d408b1ec2930",
+        "next_update_raw": "270115000000Z",
+        "revoked_count": 2,
+        "target_listed": false,
+        "target_revocation_date_raw": null,
+        "this_update_raw": "261007000000Z"
+      },
+      "role": "intermediate",
+      "url": "http://crl.globalsign.com/timestamprootr45.crl"
+    }
+  ]
+}

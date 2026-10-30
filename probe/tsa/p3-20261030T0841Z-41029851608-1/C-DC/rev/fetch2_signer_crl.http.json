@@ -1,0 +1,50 @@
+{
+  "attempt": 1,
+  "body_length": 929,
+  "body_sha256": "7e4f7039b7df439e74c0e7f88367ba8d5d457b74588abd6a74474384000b3374",
+  "error": null,
+  "headers": [
+    [
+      "Content-Type",
+      "application/pkix-crl"
+    ],
+    [
+      "Content-Length",
+      "929"
+    ],
+    [
+      "Last-Modified",
+      "Wed, 28 Oct 2026 17:53:58 GMT"
+    ],
+    [
+      "ETag",
+      "\"6ae236b6-3a1\""
+    ],
+    [
+      "Accept-Ranges",
+      "bytes"
+    ],
+    [
+      "Cache-Control",
+      "public, max-age=621"
+    ],
+    [
+      "Date",
+      "Fri, 30 Oct 2026 09:11:50 GMT"
+    ],
+    [
+      "Connection",
+      "close"
+    ],
+    [
+      "X-N",
+      "S"
+    ]
+  ],
+  "method": "GET",
+  "recv_at": "2026-10-30T09:11:50.485044Z",
+  "rtt_seconds": "0.051289",
+  "send_at": "2026-10-30T09:11:50.433755Z",
+  "status": 200,
+  "url": "http://crl3.digicert.com/DigiCertTrustedG4TimeStampingRSA4096SHA2562025CA1.crl"
+}
